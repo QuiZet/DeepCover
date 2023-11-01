@@ -1,0 +1,28 @@
+2023-09-27 17:42:15,930 INFO    MainThread:13448 [wandb_setup.py:_flush():76] Current SDK version is 0.15.10
+2023-09-27 17:42:15,930 INFO    MainThread:13448 [wandb_setup.py:_flush():76] Configure stats pid to 13448
+2023-09-27 17:42:15,930 INFO    MainThread:13448 [wandb_setup.py:_flush():76] Loading settings from C:\Users\sari\.config\wandb\settings
+2023-09-27 17:42:15,930 INFO    MainThread:13448 [wandb_setup.py:_flush():76] Loading settings from C:\Users\sari\Desktop\DeepCover\wandb\settings
+2023-09-27 17:42:15,931 INFO    MainThread:13448 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-27 17:42:15,931 INFO    MainThread:13448 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-09-27 17:42:15,932 INFO    MainThread:13448 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'C:\\Users\\sari\\Desktop\\DeepCover\\main.py'}
+2023-09-27 17:42:15,933 INFO    MainThread:13448 [wandb_init.py:_log_setup():524] Logging user logs to C:\Users\sari\Desktop\DeepCover\wandb\run-20230927_174215-xdswhtji\logs\debug.log
+2023-09-27 17:42:15,933 INFO    MainThread:13448 [wandb_init.py:_log_setup():525] Logging internal logs to C:\Users\sari\Desktop\DeepCover\wandb\run-20230927_174215-xdswhtji\logs\debug-internal.log
+2023-09-27 17:42:15,933 INFO    MainThread:13448 [wandb_init.py:init():564] calling init triggers
+2023-09-27 17:42:15,933 INFO    MainThread:13448 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2023-09-27 17:42:15,933 INFO    MainThread:13448 [wandb_init.py:init():614] starting backend
+2023-09-27 17:42:15,933 INFO    MainThread:13448 [wandb_init.py:init():618] setting up manager
+2023-09-27 17:42:15,935 INFO    MainThread:13448 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2023-09-27 17:42:15,937 INFO    MainThread:13448 [wandb_init.py:init():624] backend started and connected
+2023-09-27 17:42:15,940 INFO    MainThread:13448 [wandb_init.py:init():715] updated telemetry
+2023-09-27 17:42:15,940 INFO    MainThread:13448 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2023-09-27 17:42:16,473 INFO    MainThread:13448 [wandb_run.py:_on_init():2220] communicating current version
+2023-09-27 17:42:16,551 INFO    MainThread:13448 [wandb_run.py:_on_init():2229] got version response upgrade_message: "wandb version 0.15.11 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-09-27 17:42:16,551 INFO    MainThread:13448 [wandb_init.py:init():799] starting run threads in backend
+2023-09-27 17:42:26,676 INFO    MainThread:13448 [wandb_run.py:_console_start():2199] atexit reg
+2023-09-27 17:42:26,676 INFO    MainThread:13448 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-09-27 17:42:26,676 INFO    MainThread:13448 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-09-27 17:42:26,676 INFO    MainThread:13448 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-09-27 17:42:26,677 INFO    MainThread:13448 [wandb_init.py:init():840] run started, returning control to user process
+2023-09-27 17:45:13,160 WARNING MsgRouterThr:13448 [router.py:message_loop():77] message_loop has been closed

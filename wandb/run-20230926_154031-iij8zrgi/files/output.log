@@ -1,0 +1,23 @@
+episode num: 0
+action:tensor([7640590.], grad_fn=<MulBackward0>)
+value:tensor([[-0.2623]], grad_fn=<TanhBackward0>)
+y_predicted_val:-0.2623152732849121
+y_predicted_dim:torch.Size([])
+action:tensor([7640590.], grad_fn=<MulBackward0>)
+value:tensor([[-0.2623]], grad_fn=<TanhBackward0>)
+y_expected_val:-0.25969213247299194
+y_expected_shape:torch.Size([])
+action:tensor([7640590.], grad_fn=<MulBackward0>)
+value:tensor([[0.9972]], grad_fn=<TanhBackward0>)
+loss_actor, loss_critic:(tensor(-0.9972, grad_fn=<MulBackward0>), tensor(3.4404e-06, grad_fn=<SmoothL1LossBackward0>))
+----------Target Models Saved Successfully----------
+C:\Users\sari\Desktop\DeepCover\models\A2C\train.py:40: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  state = torch.tensor(state)
+C:\Users\sari\Desktop\DeepCover\models\A2C\train.py:55: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  s1 = torch.tensor(s1)
+Traceback (most recent call last):
+  File "C:\Users\sari\Desktop\DeepCover\main.py", line 94, in <module>
+    main()
+  File "C:\Users\sari\Desktop\DeepCover\main.py", line 88, in main
+    wandb.log({'loss': trainer.loss_critic})
+AttributeError: 'Trainer' object has no attribute 'loss_critic'

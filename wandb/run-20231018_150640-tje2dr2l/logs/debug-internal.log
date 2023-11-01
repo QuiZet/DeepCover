@@ -1,0 +1,65 @@
+2023-10-18 15:06:40,828 INFO    StreamThr :273592 [internal.py:wandb_internal():86] W&B internal server running at pid: 273592, started at: 2023-10-18 15:06:40.827636
+2023-10-18 15:06:40,829 DEBUG   HandlerThread:273592 [handler.py:handle_request():144] handle_request: status
+2023-10-18 15:06:40,832 INFO    WriterThread:273592 [datastore.py:open_for_write():85] open: C:\Users\sari\Desktop\DeepCover\wandb\run-20231018_150640-tje2dr2l\run-tje2dr2l.wandb
+2023-10-18 15:06:40,832 DEBUG   SenderThread:273592 [sender.py:send():379] send: header
+2023-10-18 15:06:40,832 DEBUG   SenderThread:273592 [sender.py:send():379] send: run
+2023-10-18 15:06:44,546 INFO    SenderThread:273592 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\ssl.py", line 1071, in _create
+    self.do_handshake()
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\wandb\sdk\internal\internal_api.py", line 358, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\wandb\sdk\lib\gql_request.py", line 55, in execute
+    request = self.session.post(self.url, **post_args)
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\requests\sessions.py", line 635, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\requests\adapters.py", line 563, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)')))
+2023-10-18 15:06:45,864 DEBUG   HandlerThread:273592 [handler.py:handle_request():144] handle_request: keepalive
+2023-10-18 15:06:50,926 DEBUG   HandlerThread:273592 [handler.py:handle_request():144] handle_request: keepalive
+2023-10-18 15:06:55,958 DEBUG   HandlerThread:273592 [handler.py:handle_request():144] handle_request: shutdown
+2023-10-18 15:06:55,958 INFO    HandlerThread:273592 [handler.py:finish():840] shutting down handler
+2023-10-18 15:06:56,957 INFO    WriterThread:273592 [datastore.py:close():294] close: C:\Users\sari\Desktop\DeepCover\wandb\run-20231018_150640-tje2dr2l\run-tje2dr2l.wandb

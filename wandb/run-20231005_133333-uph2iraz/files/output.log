@@ -1,0 +1,62 @@
+C:\Users\sari\Desktop\DeepCover\models\A2C\A2C.py:72: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  action = torch.tensor(action, dtype=torch.float32)
+episode num: 1
+------------reset obs----------------:[490518.0, 138.9504, 138.539, 138.959]
+case 4 executed
+reward is 0!!!!!!!! at episode 0 and timestep 1
+terminated at episode1
+reward is 0!!!!!!!! at episode 0 and timestep 1410
+episode num: 2
+------------reset obs----------------:[490518.0, 138.9504, 138.539, 138.959]
+case 4 executed
+reward is 0!!!!!!!! at episode 1 and timestep 1
+terminated at episode2
+reward is 0!!!!!!!! at episode 1 and timestep 1410
+episode num: 3
+------------reset obs----------------:[490518.0, 138.9504, 138.539, 138.959]
+case 4 executed
+reward is 0!!!!!!!! at episode 2 and timestep 1
+terminated at episode3
+reward is 0!!!!!!!! at episode 2 and timestep 1410
+episode num: 4
+------------reset obs----------------:[490518.0, 138.9504, 138.539, 138.959]
+case 4 executed
+reward is 0!!!!!!!! at episode 3 and timestep 1
+terminated at episode4
+reward is 0!!!!!!!! at episode 3 and timestep 1410
+episode num: 5
+------------reset obs----------------:[490518.0, 138.9504, 138.539, 138.959]
+case 4 executed
+reward is 0!!!!!!!! at episode 4 and timestep 1
+terminated at episode5
+reward is 0!!!!!!!! at episode 4 and timestep 1410
+episode num: 6
+------------reset obs----------------:[490518.0, 138.9504, 138.539, 138.959]
+case 4 executed
+reward is 0!!!!!!!! at episode 5 and timestep 1
+terminated at episode6
+reward is 0!!!!!!!! at episode 5 and timestep 1410
+episode num: 7
+------------reset obs----------------:[490518.0, 138.9504, 138.539, 138.959]
+case 4 executed
+reward is 0!!!!!!!! at episode 6 and timestep 1
+terminated at episode7
+reward is 0!!!!!!!! at episode 6 and timestep 1410
+episode num: 8
+------------reset obs----------------:[490518.0, 138.9504, 138.539, 138.959]
+case 4 executed
+reward is 0!!!!!!!! at episode 7 and timestep 1
+Traceback (most recent call last):
+  File "C:\Users\sari\Desktop\DeepCover\main.py", line 112, in <module>
+    main()
+  File "C:\Users\sari\Desktop\DeepCover\main.py", line 72, in main
+    action = trainer.get_exploitation_action(obs)
+  File "C:\Users\sari\Desktop\DeepCover\models\A2C\train.py", line 61, in get_exploitation_action
+    action = self.target_actor.forward(state).detach()
+  File "C:\Users\sari\Desktop\DeepCover\models\A2C\A2C.py", line 31, in forward
+    x = F.tanh(self.ln3(x))
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\torch\nn\modules\module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\torch\nn\modules\linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

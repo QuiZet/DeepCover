@@ -1,0 +1,24 @@
+C:\Users\sari\Desktop\DeepCover\models\A2C\train.py:40: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  state = torch.tensor(state)
+C:\Users\sari\Desktop\DeepCover\models\A2C\train.py:51: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  s1 = torch.tensor(s1)
+C:\Users\sari\Desktop\DeepCover\models\A2C\train.py:65: UserWarning: Using a target size (torch.Size([1])) that is different to the input size (torch.Size([])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  loss_critic = F.smooth_l1_loss(y_predicted, y_expected)
+episode num: 0
+reward for step 500 is [1393727.8]
+reward for step 1000 is [6323968.]
+----------Target Models Saved Successfully----------
+episode num: 1
+reward for step 500 is [1393727.8]
+reward for step 1000 is [6323968.]
+episode num: 2
+reward for step 500 is [1393727.8]
+Traceback (most recent call last):
+  File "C:\Users\sari\Desktop\DeepCover\main.py", line 76, in <module>
+    main()
+  File "C:\Users\sari\Desktop\DeepCover\main.py", line 61, in main
+    next_obs, reward, terminated = market.step(action)
+  File "C:\Users\sari\Desktop\DeepCover\env\market.py", line 51, in step
+    (rate - self.rate[self.clock -1]) * (self.exposure[(self.clock -1)] + sum(self.cover)) +
+KeyboardInterrupt
+reward for step 1000 is [6323968.]

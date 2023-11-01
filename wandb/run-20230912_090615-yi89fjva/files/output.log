@@ -1,0 +1,16 @@
+
+episode num: 0
+C:\Users\sari\Desktop\DeepCover\models\A2C\train.py:40: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  state = torch.tensor(state)
+C:\Users\sari\Desktop\DeepCover\models\A2C\train.py:51: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  s1 = torch.tensor(s1)
+Traceback (most recent call last):
+  File "C:\Users\sari\Desktop\DeepCover\main.py", line 77, in <module>
+    main()
+  File "C:\Users\sari\Desktop\DeepCover\main.py", line 62, in main
+    trainer.optimize(obs, action, reward, next_obs, args.gamma, args.tau)
+  File "C:\Users\sari\Desktop\DeepCover\models\A2C\train.py", line 58, in optimize
+    y_predicted = torch.squeeze(self.critic.forward(s1, a1))
+  File "C:\Users\sari\Desktop\DeepCover\models\A2C\A2C.py", line 67, in forward
+    x = torch.cat((s3,a),dim=1)
+IndexError: Dimension out of range (expected to be in range of [-1, 0], but got 1)

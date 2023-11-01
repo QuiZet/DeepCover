@@ -1,0 +1,83 @@
+episode num: 0
+reward for step 100 is [-799632.94]
+obs for step 100 is [0.0241901137, -0.45163453899999695, -0.45156453900000315, -0.44855673759002457]
+action for step100 if [-67117.43]
+reward for step 200 is [-9237059.]
+obs for step 200 is [0.3789997286, -0.03233453900000427, -0.03056453899998246, -0.0305567375900182]
+action for step200 if [-1474772.]
+C:\Users\sari\Desktop\DeepCover\models\A2C\train.py:40: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  state = torch.tensor(state)
+C:\Users\sari\Desktop\DeepCover\models\A2C\train.py:53: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  s1 = torch.tensor(s1)
+C:\Users\sari\Desktop\DeepCover\models\A2C\train.py:69: UserWarning: Using a target size (torch.Size([1])) that is different to the input size (torch.Size([])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  loss_critic = F.smooth_l1_loss(y_predicted, y_expected)
+reward for step 300 is [-2007130.2]
+obs for step 300 is [0.0174974808, -0.046334539000014274, -0.04956453899998792, -0.05055673759000001]
+action for step300 if [-950863.56]
+reward for step 400 is [-11313993.]
+obs for step 400 is [-0.0030047781, 0.00436546099999191, 0.0034354610000093544, 0.003443262409973613]
+action for step400 if [-910220.5]
+reward for step 500 is [24069154.]
+obs for step 500 is [0.0539365086, -0.10963453900001241, -0.10656453900000429, -0.11055673759000229]
+action for step500 if [-972908.56]
+reward for step 600 is [41929924.]
+obs for step 600 is [-0.037257387999999995, -0.152834538999997, -0.15656453899998724, -0.15655673759002298]
+action for step600 if [-753890.56]
+reward for step 700 is [1.0822109e+08]
+obs for step 700 is [0.0088967067, -0.2993345390000002, -0.2995645389999879, -0.3015567375900048]
+action for step700 if [-348270.22]
+reward for step 800 is [74211008.]
+obs for step 800 is [0.1423665384, -0.23383453900001427, -0.22956453899999474, -0.23255673759001638]
+action for step800 if [-848861.1]
+reward for step 900 is [1.0153303e+08]
+obs for step 900 is [0.09983475, -0.28563453900000013, -0.28056453899998246, -0.2845567375900089]
+action for step900 if [-574960.56]
+reward for step 1000 is [-35032240.]
+obs for step 1000 is [-0.17779066, -0.012634539000003997, -0.006564538999981551, -0.009556737590003195]
+action for step1000 if [-687303.75]
+reward for step 1100 is [-2.830208e+08]
+obs for step 1100 is [-0.0749203628, 0.37136546099998213, 0.3664354610000089, 0.36344326240998726]
+action for step1100 if [126554.75]
+reward for step 1200 is [-3.8320912e+08]
+obs for step 1200 is [0.01498908, 0.5063654610000015, 0.5094354610000096, 0.5074432624099927]
+action for step1200 if [-196269.83]
+reward for step 1300 is [-4.1778486e+08]
+obs for step 1300 is [-0.04173135, 0.572365461000004, 0.5744354610000073, 0.5704432624099809]
+action for step1300 if [-118122.01]
+reward for step 1400 is [-4.809636e+08]
+obs for step 1400 is [0.00681407, 0.6463654609999878, 0.6414354610000146, 0.6414432624099788]
+action for step1400 if [-232806.75]
+----------Target Models Saved Successfully----------
+episode num: 1
+reward for step 100 is [-799632.94]
+obs for step 100 is [0.0241901137, -0.45163453899999695, -0.45156453900000315, -0.44855673759002457]
+action for step100 if [-67117.43]
+reward for step 200 is [-9237059.]
+obs for step 200 is [0.3789997286, -0.03233453900000427, -0.03056453899998246, -0.0305567375900182]
+action for step200 if [-1474772.]
+reward for step 300 is [-2007130.2]
+obs for step 300 is [0.0174974808, -0.046334539000014274, -0.04956453899998792, -0.05055673759000001]
+action for step300 if [-950863.56]
+reward for step 400 is [-11313993.]
+obs for step 400 is [-0.0030047781, 0.00436546099999191, 0.0034354610000093544, 0.003443262409973613]
+action for step400 if [-910220.5]
+Traceback (most recent call last):
+  File "C:\Users\sari\Desktop\DeepCover\main.py", line 88, in <module>
+    main()
+  File "C:\Users\sari\Desktop\DeepCover\main.py", line 71, in main
+    trainer.optimize(obs, action, reward, next_obs, args.gamma, args.tau)
+  File "C:\Users\sari\Desktop\DeepCover\models\A2C\train.py", line 63, in optimize
+    a2 = self.target_actor.forward(s2).detach()
+  File "C:\Users\sari\Desktop\DeepCover\models\A2C\A2C.py", line 27, in forward
+    x = F.relu(self.ln2(x))
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\torch\nn\modules\module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\torch\nn\modules\linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt
+reward for step 500 is [24069154.]
+obs for step 500 is [0.0539365086, -0.10963453900001241, -0.10656453900000429, -0.11055673759000229]
+action for step500 if [-972908.56]
+reward for step 600 is [41929924.]
+obs for step 600 is [-0.037257387999999995, -0.152834538999997, -0.15656453899998724, -0.15655673759002298]
+action for step600 if [-753890.56]

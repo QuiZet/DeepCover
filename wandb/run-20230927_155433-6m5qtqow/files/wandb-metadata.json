@@ -1,0 +1,42 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.10.9",
+    "heartbeatAt": "2023-09-27T06:54:34.383071",
+    "startedAt": "2023-09-27T06:54:33.764464",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--market",
+        "C:\\Users\\sari\\Desktop\\DeepCover\\sample_2.csv"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\sari\\Desktop\\DeepCover\\main.py",
+    "codePathLocal": "main.py",
+    "codePath": "main.py",
+    "host": "LMIZ-SYS0265",
+    "username": "sari",
+    "executable": "C:\\Users\\sari\\AppData\\Local\\anaconda3\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2496.0,
+        "min": 0.0,
+        "max": 2496.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2496.0,
+            "min": 0.0,
+            "max": 2496.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 235.47558212280273,
+            "used": 80.86643981933594
+        }
+    },
+    "memory": {
+        "total": 15.727603912353516
+    }
+}

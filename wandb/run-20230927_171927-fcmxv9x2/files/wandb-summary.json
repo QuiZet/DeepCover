@@ -1,0 +1,1 @@
+{"Reward throughout epoch(PL)": 0.04930675894927141, "_timestamp": 1695802839.2657604, "_runtime": 71.44081950187683, "_step": 35066, "critic_loss": 7.398440565255702e-06, "actor_loss": -0.06599818170070648, "_wandb": {"runtime": 70}}

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Users\sari\Desktop\DeepCover\main.py", line 46, in <module>
+    trainer = Trainer(S_DIM,A_DIM,A_BOUND, args.lr).to(device)
+AttributeError: 'Trainer' object has no attribute 'to'

@@ -1,0 +1,299 @@
+episode num: 0
+Step:300 loss_critic:0.001672245952338677 loss_actor:tensor([[-0.9997]], grad_fn=<MulBackward0>)
+C:\Users\sari\Desktop\DeepCover\models\A2C\train.py:44: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  state = torch.tensor(state)
+C:\Users\sari\Desktop\DeepCover\models\A2C\train.py:59: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  s1 = torch.tensor(s1)
+C:\Users\sari\Desktop\DeepCover\models\A2C\train.py:81: UserWarning: Using a target size (torch.Size([1])) that is different to the input size (torch.Size([])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  loss_critic = F.smooth_l1_loss(y_predicted, y_expected)
+Step:600 loss_critic:4.144916185661163e-05 loss_actor:tensor([[-0.9999]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0023950371235063155 loss_actor:tensor([[0.9987]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2342986129987672 loss_actor:tensor([[-0.9983]], grad_fn=<MulBackward0>)
+episode num: 1
+Step:300 loss_critic:0.0032142927929642022 loss_actor:tensor([[-0.9986]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:4.217076713319672e-05 loss_actor:tensor([[-0.9974]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.002553828908121667 loss_actor:tensor([[-0.9988]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2662233509629993 loss_actor:tensor([[-0.9961]], grad_fn=<MulBackward0>)
+episode num: 2
+Step:300 loss_critic:0.0018891227551004037 loss_actor:tensor([[0.9980]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:3.772581257672773e-05 loss_actor:tensor([[0.9977]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0019712478026415914 loss_actor:tensor([[-0.9720]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.005791192773886453 loss_actor:tensor([[0.9781]], grad_fn=<MulBackward0>)
+episode num: 3
+Step:300 loss_critic:0.003720335885948821 loss_actor:tensor([[0.9846]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:4.999326123476778e-06 loss_actor:tensor([[-0.7052]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0020120012168202196 loss_actor:tensor([[0.9904]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2632232315603856 loss_actor:tensor([[-0.9966]], grad_fn=<MulBackward0>)
+episode num: 4
+Step:300 loss_critic:0.0022296082764457752 loss_actor:tensor([[-0.9987]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.5790613379726783e-06 loss_actor:tensor([[-0.9987]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.003555614736402061 loss_actor:tensor([[-0.9986]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631778665910062 loss_actor:tensor([[-0.9992]], grad_fn=<MulBackward0>)
+episode num: 5
+Step:300 loss_critic:0.002227327350657783 loss_actor:tensor([[-0.9995]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.670142826090299e-06 loss_actor:tensor([[-0.9995]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035450566969891365 loss_actor:tensor([[-0.9994]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631655619071303 loss_actor:tensor([[-0.9996]], grad_fn=<MulBackward0>)
+episode num: 6
+Step:300 loss_critic:0.0022266609854931676 loss_actor:tensor([[-0.9997]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.6976244098115746e-06 loss_actor:tensor([[-0.9997]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035419937482445932 loss_actor:tensor([[-0.9997]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.26316175385982876 loss_actor:tensor([[-0.9998]], grad_fn=<MulBackward0>)
+episode num: 7
+Step:300 loss_critic:0.0022263881366971694 loss_actor:tensor([[-0.9999]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.7091286824879423e-06 loss_actor:tensor([[-0.9999]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035407672042252385 loss_actor:tensor([[-0.9999]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631602471884816 loss_actor:tensor([[-0.9999]], grad_fn=<MulBackward0>)
+episode num: 8
+Step:300 loss_critic:0.0022262622636130148 loss_actor:tensor([[-0.9999]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.714265653835357e-06 loss_actor:tensor([[-0.9999]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.003540227681677824 loss_actor:tensor([[-0.9999]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.26315967149857133 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 9
+Step:300 loss_critic:0.0022261998987593004 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.7167667862204996e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.003539988901885224 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631594699075823 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 10
+Step:300 loss_critic:0.0022261811922440274 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.717879260829511e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.003539885401274074 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.26315947386866473 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 11
+Step:300 loss_critic:0.002226166314342675 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.7184368071168726e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.003539841938085139 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631594651101726 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 12
+Step:300 loss_critic:0.0022261633536723984 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.718575847761651e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035398133593666794 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.26315953472138426 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 13
+Step:300 loss_critic:0.0022261602763698294 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.7188546606672944e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035398097479317605 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631596374640493 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 14
+Step:300 loss_critic:0.002226157122847132 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.718855071803731e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035398059938273854 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631597307534908 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 15
+Step:300 loss_critic:0.002226157869268558 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.7188551653449557e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.00353980711174185 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.26315981439345704 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 16
+Step:300 loss_critic:0.0022261585236625853 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.7188554070509885e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035398030887862646 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631598871614385 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 17
+Step:300 loss_critic:0.0022261590963141118 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.7188554242861917e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035398039404304226 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.26315995047691626 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 18
+Step:300 loss_critic:0.002226159566641301 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.7188553207375006e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035398046235703357 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631600010756513 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 19
+Step:300 loss_critic:0.0022261599436841973 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.718715854453002e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035398051433364734 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631600411858608 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+episode num: 20
+Step:300 loss_critic:0.0022261602324659346 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.7188552135752e-06 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.00353980560911946 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.263160077035697 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+episode num: 21
+Step:300 loss_critic:0.002226160594693958 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.718855612897928e-06 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035398061753310673 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631601185664322 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+episode num: 22
+Step:300 loss_critic:0.002226160945762105 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.718854747814403e-06 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.003539806627758741 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631601533782417 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+episode num: 23
+Step:300 loss_critic:0.002226161198562506 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.718854757960889e-06 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.003539807009989253 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631601827014678 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+episode num: 24
+Step:300 loss_critic:0.002226161457269028 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.7188547104257727e-06 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035398073932278043 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631602099823114 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+episode num: 25
+Step:300 loss_critic:0.0022261616270024334 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.7188549757608374e-06 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.003539807656002224 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631602262276318 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+episode num: 26
+Step:300 loss_critic:0.0022261616323278545 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.7188550070339278e-06 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035398076690968117 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.26316022726707244 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+episode num: 27
+Step:300 loss_critic:0.0022261616364123984 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.718855016346265e-06 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035398076739314222 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.26316022777269216 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+episode num: 28
+Step:300 loss_critic:0.002226161642712229 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.7188550452564505e-06 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035406517844624808 loss_actor:tensor([[-0.9999]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631691876278391 loss_actor:tensor([[-0.9999]], grad_fn=<MulBackward0>)
+episode num: 29
+Step:300 loss_critic:0.00222671591788102 loss_actor:tensor([[-0.9999]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.7067316303045177e-06 loss_actor:tensor([[-0.9999]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035433842777552647 loss_actor:tensor([[-0.9999]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.26319582777467165 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 30
+Step:300 loss_critic:0.0022265607918961726 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.713947857799884e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.003541558072263384 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.26319535210386197 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 31
+Step:300 loss_critic:0.0022265090844353743 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.7165869526131825e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035409611456445464 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.26319517913877366 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 32
+Step:300 loss_critic:0.002226485219655972 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.717698534122386e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035407504776731524 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.26319513590460986 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 33
+Step:300 loss_critic:0.0022264772647579262 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.718393388028832e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035404495583896125 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631950995551003 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 34
+Step:300 loss_critic:0.0022264775696251506 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.7182533521174145e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.003540434859704864 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.26319512447610016 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 35
+Step:300 loss_critic:0.0022264775696251506 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.7183923299770844e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035404147973096198 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.26319512447610016 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 36
+Step:300 loss_critic:0.0022264735921811844 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.7183923299770844e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035403847038233344 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.26319512447610016 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 37
+Step:300 loss_critic:0.0022264735921811844 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.718531311389468e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.003540354610464947 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631950812312891 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 38
+Step:300 loss_critic:0.00222646563730391 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.718670296354565e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035403295327639905 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631950812312891 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 39
+Step:300 loss_critic:0.002226469614740771 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.718809284872376e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035403044551518517 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631950812312891 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 40
+Step:300 loss_critic:0.00222646563730391 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.718809284872376e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.003540289408627201 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631950812312891 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 41
+Step:300 loss_critic:0.00222646563730391 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.718809284872376e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035402793776285304 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631950812312891 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 42
+Step:300 loss_critic:0.00222646563730391 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.7189482769429007e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035402743621345246 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631950812312891 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 43
+Step:300 loss_critic:0.00222646563730391 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.7189482769429007e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035402743621345246 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631950812312891 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+episode num: 44
+Step:300 loss_critic:0.002226469614740771 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.7189482769429007e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035402743621345246 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631950812312891 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+episode num: 45
+Step:300 loss_critic:0.002226469614740771 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.7189482769429007e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035402743621345246 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631950812312891 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+episode num: 46
+Step:300 loss_critic:0.00222646563730391 loss_actor:tensor([[-1.]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.718809284872376e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.003792571888134409 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.263195351508558 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 47
+Step:300 loss_critic:0.002226565988911027 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.7101955455816513e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.003545152216313568 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631954361397718 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 48
+Step:300 loss_critic:0.0022265580338686943 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.7106118714032007e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035583090208818583 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631953928949351 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 49
+Step:300 loss_critic:0.002226554056352857 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.7110282291991728e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0020542989428662174 loss_actor:tensor([[0.9990]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.26319518399928843 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 50
+Step:300 loss_critic:0.0022264787890942713 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.71672059923217e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.0035639533279965864 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.26319525172880287 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 51
+Step:300 loss_critic:0.00222649469891002 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.713248287073312e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.002067838581066832 loss_actor:tensor([[0.9996]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.26319494901512686 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 52
+Step:300 loss_critic:0.0022555727827309 loss_actor:tensor([[-0.9995]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:3.280610611708709e-05 loss_actor:tensor([[-0.9651]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.002074928269635661 loss_actor:tensor([[0.9955]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631951652391634 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 53
+Step:300 loss_critic:0.002226506631309135 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.83297819034751e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.002062395291855329 loss_actor:tensor([[0.9871]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631951652391634 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 54
+Step:300 loss_critic:0.0022264668567697635 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:600 loss_critic:2.718944044303926e-06 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:900 loss_critic:0.003540396223915778 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+Step:1200 loss_critic:0.2631951652391634 loss_actor:tensor([[-1.0000]], grad_fn=<MulBackward0>)
+episode num: 55
+Traceback (most recent call last):
+  File "C:\Users\sari\Desktop\DeepCover\main.py", line 98, in <module>
+  File "C:\Users\sari\Desktop\DeepCover\main.py", line 78, in main
+    loss_critic, loss_actor = trainer.optimize(obs, action, reward, next_obs, args.gamma, args.tau)
+  File "C:\Users\sari\Desktop\DeepCover\models\A2C\train.py", line 91, in optimize
+    self.actor_optimizer.step()
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\torch\optim\optimizer.py", line 280, in wrapper
+    out = func(*args, **kwargs)
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\torch\optim\optimizer.py", line 33, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\torch\optim\adam.py", line 141, in step
+    adam(
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\torch\optim\adam.py", line 281, in adam
+    func(params,
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\torch\optim\adam.py", line 344, in _single_tensor_adam
+    exp_avg.mul_(beta1).add_(grad, alpha=1 - beta1)
+KeyboardInterrupt

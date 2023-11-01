@@ -1,0 +1,47 @@
+episode num: 1
+------------reset obs----------------:[490518.0, 138.9504, 138.539, 138.959]
+case 4 executed
+C:\Users\sari\Desktop\DeepCover\models\A2C\A2C.py:72: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  action = torch.tensor(action, dtype=torch.float32)
+terminated at episode1
+episode num: 2
+------------reset obs----------------:[490518.0, 138.9504, 138.539, 138.959]
+case 4 executed
+terminated at episode2
+episode num: 3
+------------reset obs----------------:[490518.0, 138.9504, 138.539, 138.959]
+case 4 executed
+terminated at episode3
+episode num: 4
+------------reset obs----------------:[490518.0, 138.9504, 138.539, 138.959]
+case 4 executed
+terminated at episode4
+episode num: 5
+------------reset obs----------------:[490518.0, 138.9504, 138.539, 138.959]
+case 4 executed
+terminated at episode5
+episode num: 6
+------------reset obs----------------:[490518.0, 138.9504, 138.539, 138.959]
+case 4 executed
+terminated at episode6
+episode num: 7
+------------reset obs----------------:[490518.0, 138.9504, 138.539, 138.959]
+case 4 executed
+Traceback (most recent call last):
+  File "C:\Users\sari\Desktop\DeepCover\main.py", line 110, in <module>
+    main()
+  File "C:\Users\sari\Desktop\DeepCover\main.py", line 87, in main
+    loss_critic, loss_actor = trainer.optimize(obs, action, reward, next_obs, args.gamma, args.tau)
+  File "C:\Users\sari\Desktop\DeepCover\models\A2C\train.py", line 98, in optimize
+    self.critic_optimizer.step()
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\torch\optim\optimizer.py", line 280, in wrapper
+    out = func(*args, **kwargs)
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\torch\optim\optimizer.py", line 33, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\torch\optim\adam.py", line 141, in step
+    adam(
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\torch\optim\adam.py", line 281, in adam
+    func(params,
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\torch\optim\adam.py", line 334, in _single_tensor_adam
+    if weight_decay != 0:
+KeyboardInterrupt

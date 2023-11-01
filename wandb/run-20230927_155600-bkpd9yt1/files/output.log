@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\sari\Desktop\DeepCover\main.py", line 100, in <module>
+    main()
+  File "C:\Users\sari\Desktop\DeepCover\main.py", line 57, in main
+    obs[0] = obs[0]/100000000
+TypeError: unsupported operand type(s) for /: 'str' and 'int'
+episode num: 0

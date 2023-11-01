@@ -1,0 +1,135 @@
+
+episode num: 0
+C:\Users\sari\Desktop\DeepCover\models\A2C\train.py:40: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  state = torch.tensor(state)
+C:\Users\sari\Desktop\DeepCover\models\A2C\train.py:51: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  s1 = torch.tensor(s1)
+C:\Users\sari\Desktop\DeepCover\models\A2C\train.py:65: UserWarning: Using a target size (torch.Size([1])) that is different to the input size (torch.Size([])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  loss_critic = F.smooth_l1_loss(y_predicted, y_expected)
+----------Target Models Saved Successfully----------
+episode num: 1
+episode num: 2
+episode num: 3
+episode num: 4
+episode num: 5
+episode num: 6
+episode num: 7
+episode num: 8
+episode num: 9
+episode num: 10
+episode num: 11
+episode num: 12
+episode num: 13
+episode num: 14
+episode num: 15
+episode num: 16
+episode num: 17
+episode num: 18
+episode num: 19
+episode num: 20
+episode num: 21
+episode num: 22
+episode num: 23
+episode num: 24
+episode num: 25
+episode num: 26
+episode num: 27
+episode num: 28
+episode num: 29
+episode num: 30
+episode num: 31
+episode num: 32
+episode num: 33
+episode num: 34
+episode num: 35
+episode num: 36
+episode num: 37
+episode num: 38
+episode num: 39
+episode num: 40
+episode num: 41
+episode num: 42
+episode num: 43
+episode num: 44
+episode num: 45
+episode num: 46
+episode num: 47
+episode num: 48
+episode num: 49
+episode num: 50
+episode num: 51
+episode num: 52
+episode num: 53
+episode num: 54
+episode num: 55
+episode num: 56
+episode num: 57
+episode num: 58
+episode num: 59
+episode num: 60
+episode num: 61
+episode num: 62
+episode num: 63
+episode num: 64
+episode num: 65
+episode num: 66
+episode num: 67
+episode num: 68
+episode num: 69
+episode num: 70
+episode num: 71
+episode num: 72
+episode num: 73
+episode num: 74
+episode num: 75
+episode num: 76
+episode num: 77
+episode num: 78
+episode num: 79
+episode num: 80
+episode num: 81
+episode num: 82
+episode num: 83
+episode num: 84
+episode num: 85
+episode num: 86
+episode num: 87
+episode num: 88
+episode num: 89
+episode num: 90
+episode num: 91
+episode num: 92
+episode num: 93
+episode num: 94
+Traceback (most recent call last):
+  File "C:\Users\sari\Desktop\DeepCover\main.py", line 76, in <module>
+    main()
+  File "C:\Users\sari\Desktop\DeepCover\main.py", line 72, in main
+    wandb.log({'Last Epoch Reward(PL)': reward}, step=_ep)
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\wandb\sdk\wandb_run.py", line 419, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\wandb\sdk\wandb_run.py", line 370, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\wandb\sdk\wandb_run.py", line 360, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\wandb\sdk\wandb_run.py", line 1792, in log
+    self._log(data=data, step=step, commit=commit)
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\wandb\sdk\wandb_run.py", line 1567, in _log
+    self._partial_history_callback(data, step, commit)
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\wandb\sdk\wandb_run.py", line 1439, in _partial_history_callback
+    self._backend.interface.publish_partial_history(
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\wandb\sdk\interface\interface.py", line 546, in publish_partial_history
+    self._publish_partial_history(partial_history)
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\wandb\sdk\interface\interface_shared.py", line 89, in _publish_partial_history
+    self._publish(rec)
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\wandb\sdk\interface\interface_sock.py", line 51, in _publish
+    self._sock_client.send_record_publish(record)
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\wandb\sdk\lib\sock_client.py", line 221, in send_record_publish
+    self.send_server_request(server_req)
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\wandb\sdk\lib\sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\wandb\sdk\lib\sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\wandb\sdk\lib\sock_client.py", line 126, in _sendall_with_error_handle
+    total_data = len(data)
+KeyboardInterrupt

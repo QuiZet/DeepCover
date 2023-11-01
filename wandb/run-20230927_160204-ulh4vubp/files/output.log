@@ -1,0 +1,1220 @@
+C:\Users\sari\Desktop\DeepCover\models\A2C\train.py:52: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  state = torch.tensor(state)
+C:\Users\sari\Desktop\DeepCover\models\A2C\train.py:67: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  s1 = torch.tensor(s1)
+C:\Users\sari\Desktop\DeepCover\models\A2C\train.py:89: UserWarning: Using a target size (torch.Size([1])) that is different to the input size (torch.Size([])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  loss_critic = F.smooth_l1_loss(y_predicted, y_expected)
+episode num: 0
+reset obs:[1914015.16, 140.1804, 140.217, 140.239]
+reward for step 50 is [-0.00327907]
+obs for step 50 is [-0.5198139023, 0.8631654609999941, 0.8624354610000182, 0.864443262409992]
+action for step50 if [-0.99995452]
+Step:50 loss_critic:0.000580397822382421 loss_actor:tensor([[0.5050]], grad_fn=<MulBackward0>)
+reward for step 100 is [-0.0102145]
+obs for step 100 is [-0.23200301510000002, 0.9268654609999771, 0.9264354610000112, 0.9264432624099754]
+action for step100 if [-0.99996305]
+Step:100 loss_critic:6.112692828100019e-05 loss_actor:tensor([[0.5347]], grad_fn=<MulBackward0>)
+reward for step 150 is [-0.00965372]
+obs for step 150 is [0.0397248879, 0.9183654609999792, 0.9004354610000007, 0.9024432624099745]
+action for step150 if [-0.99996948]
+Step:150 loss_critic:2.7975630093568856e-05 loss_actor:tensor([[0.5278]], grad_fn=<MulBackward0>)
+reward for step 200 is [0.04554464]
+obs for step 200 is [-1.291298785, 0.6066654609999773, 0.606435461000018, 0.6034432624099964]
+action for step200 if [-0.99997348]
+Step:200 loss_critic:0.00010310639535632598 loss_actor:tensor([[0.1628]], grad_fn=<MulBackward0>)
+reward for step 250 is [0.0204318]
+obs for step 250 is [-2.267567335, 0.7073654609999949, 0.7094354609999982, 0.7034432624099907]
+action for step250 if [-0.9999792]
+Step:250 loss_critic:0.0018209058382107827 loss_actor:tensor([[0.0586]], grad_fn=<MulBackward0>)
+reward for step 300 is [0.01063021]
+obs for step 300 is [-1.1838327579999999, 0.7753654609999785, 0.7804354609999962, 0.7754432624099934]
+action for step300 if [-0.99998468]
+Step:300 loss_critic:0.00011960397590440491 loss_actor:tensor([[0.3421]], grad_fn=<MulBackward0>)
+reward for step 350 is [0.00276334]
+obs for step 350 is [-0.9139336222, 0.7763654609999833, 0.7774354610000103, 0.7754432624099934]
+action for step350 if [-0.99998689]
+Step:350 loss_critic:0.00014341903355219947 loss_actor:tensor([[0.3785]], grad_fn=<MulBackward0>)
+reward for step 400 is [-0.01181006]
+obs for step 400 is [-0.9283097491, 0.8289654609999957, 0.8344354609999982, 0.8304432624100002]
+action for step400 if [-0.9999885]
+Step:400 loss_critic:1.643879325937428e-08 loss_actor:tensor([[0.4809]], grad_fn=<MulBackward0>)
+reward for step 450 is [-0.02299004]
+obs for step 450 is [-0.1302015768, 0.8406654609999862, 0.8414354610000032, 0.8384432624099816]
+action for step450 if [-0.99998963]
+Step:450 loss_critic:6.183893188218821e-05 loss_actor:tensor([[0.4847]], grad_fn=<MulBackward0>)
+reward for step 500 is [-0.04491097]
+obs for step 500 is [0.4735255639, 0.8773654609999824, 0.8874354609999955, 0.8864432624099834]
+action for step500 if [-0.99999046]
+Step:500 loss_critic:6.388262236939275e-06 loss_actor:tensor([[0.5160]], grad_fn=<MulBackward0>)
+reward for step 550 is [-0.06982714]
+obs for step 550 is [0.9079978492, 0.9368654609999965, 0.9384354610000116, 0.9384432624099759]
+action for step550 if [-0.99999118]
+Step:550 loss_critic:0.000365866957137594 loss_actor:tensor([[0.5356]], grad_fn=<MulBackward0>)
+reward for step 600 is [-0.13514854]
+obs for step 600 is [1.9747861919999998, 1.0573654609999892, 1.059435461000021, 1.0564432624099993]
+action for step600 if [-0.99999171]
+Step:600 loss_critic:0.00012306075559927486 loss_actor:tensor([[0.5708]], grad_fn=<MulBackward0>)
+reward for step 650 is [-0.07333233]
+obs for step 650 is [2.399735309, 0.9513654609999946, 0.953435460999998, 0.9514432624099811]
+action for step650 if [-0.99999207]
+Step:650 loss_critic:6.412166806553989e-05 loss_actor:tensor([[0.4844]], grad_fn=<MulBackward0>)
+reward for step 700 is [-0.08127085]
+obs for step 700 is [2.494020881, 0.9903654609999819, 0.9904354610000041, 0.9864432624099777]
+action for step700 if [-0.99999255]
+Step:700 loss_critic:6.125410722767526e-07 loss_actor:tensor([[0.4899]], grad_fn=<MulBackward0>)
+reward for step 750 is [-0.02171942]
+obs for step 750 is [1.834194418, 0.8813654610000015, 0.8784354610000094, 0.8754432624099877]
+action for step750 if [-0.99999309]
+Step:750 loss_critic:7.769073977279887e-05 loss_actor:tensor([[0.4697]], grad_fn=<MulBackward0>)
+reward for step 800 is [-0.12020366]
+obs for step 800 is [2.370759895, 1.004365460999992, 1.0064354609999953, 1.0044432624099784]
+action for step800 if [-0.99999344]
+Step:800 loss_critic:6.98168259790181e-05 loss_actor:tensor([[0.5561]], grad_fn=<MulBackward0>)
+reward for step 850 is [-0.13969423]
+obs for step 850 is [2.83588584, 1.0123654610000017, 1.0164354610000146, 1.013443262409993]
+action for step850 if [-0.99999362]
+Step:850 loss_critic:0.0008072672396309827 loss_actor:tensor([[0.5295]], grad_fn=<MulBackward0>)
+reward for step 900 is [-0.16051753]
+obs for step 900 is [2.2377826119999997, 1.060965460999995, 1.0624354610000069, 1.0584432624099804]
+action for step900 if [-0.99999392]
+Step:900 loss_critic:5.491870116432258e-05 loss_actor:tensor([[0.5963]], grad_fn=<MulBackward0>)
+reward for step 950 is [-0.19131464]
+obs for step 950 is [2.371304825, 1.0881654609999885, 1.0864354610000078, 1.084443262409991]
+action for step950 if [-0.9999941]
+Step:950 loss_critic:2.194052620113342e-05 loss_actor:tensor([[0.6628]], grad_fn=<MulBackward0>)
+reward for step 1000 is [-0.10088506]
+obs for step 1000 is [2.425733909, 0.994365461000001, 0.9954354609999996, 0.9944432624099875]
+action for step1000 if [-0.99999416]
+Step:1000 loss_critic:0.000266481196063224 loss_actor:tensor([[0.5606]], grad_fn=<MulBackward0>)
+reward for step 1050 is [-0.10258851]
+obs for step 1050 is [2.182941557, 1.002865460999999, 1.0044354610000141, 1.0004432624099877]
+action for step1050 if [-0.99999434]
+Step:1050 loss_critic:7.393468293085243e-05 loss_actor:tensor([[0.5662]], grad_fn=<MulBackward0>)
+reward for step 1100 is [-0.07232916]
+obs for step 1100 is [1.748800979, 0.967765460999999, 0.9704354610000223, 0.9654432624099911]
+action for step1100 if [-0.99999446]
+Step:1100 loss_critic:9.824603343483122e-08 loss_actor:tensor([[0.5431]], grad_fn=<MulBackward0>)
+reward for step 1150 is [-0.09808782]
+obs for step 1150 is [1.56272657, 0.994065460999991, 0.9944354609999948, 0.9924432624099779]
+action for step1150 if [-0.99999458]
+Step:1150 loss_critic:2.520866213653464e-05 loss_actor:tensor([[0.5839]], grad_fn=<MulBackward0>)
+reward for step 1200 is [-0.12201148]
+obs for step 1200 is [1.605709325, 1.0187654609999868, 1.024435460999996, 1.0174432624099836]
+action for step1200 if [-0.99999464]
+Step:1200 loss_critic:1.2647741000910405e-07 loss_actor:tensor([[0.6077]], grad_fn=<MulBackward0>)
+reward for step 1250 is [-0.13395952]
+obs for step 1250 is [1.6948338180000002, 1.0240654609999922, 1.02143546100001, 1.0234432624099838]
+action for step1250 if [-0.99999475]
+Step:1250 loss_critic:5.987679960308597e-06 loss_actor:tensor([[0.6135]], grad_fn=<MulBackward0>)
+reward for step 1300 is [-0.11348039]
+obs for step 1300 is [1.495199652, 1.007265461000003, 1.0104354610000144, 1.0084432624099975]
+action for step1300 if [-0.99999481]
+Step:1300 loss_critic:4.208737100988053e-06 loss_actor:tensor([[0.6003]], grad_fn=<MulBackward0>)
+reward for step 1350 is [-0.14910605]
+obs for step 1350 is [1.4329759530000001, 1.0468654609999817, 1.0434354610000014, 1.0444432624099989]
+action for step1350 if [-0.99999487]
+Step:1350 loss_critic:7.77246382512697e-06 loss_actor:tensor([[0.6507]], grad_fn=<MulBackward0>)
+episode num: 1
+reset obs:[1914015.16, 140.1804, 140.217, 140.239]
+reward for step 50 is [-0.00330832]
+obs for step 50 is [-0.5198139023, 0.8631654609999941, 0.8624354610000182, 0.864443262409992]
+action for step50 if [-0.99999493]
+Step:50 loss_critic:7.99681168352063e-05 loss_actor:tensor([[0.5476]], grad_fn=<MulBackward0>)
+reward for step 100 is [-0.01026394]
+obs for step 100 is [-0.23200301510000002, 0.9268654609999771, 0.9264354610000112, 0.9264432624099754]
+action for step100 if [-0.99999505]
+Step:100 loss_critic:1.2489261176760147e-06 loss_actor:tensor([[0.5406]], grad_fn=<MulBackward0>)
+reward for step 150 is [-0.00970284]
+obs for step 150 is [0.0397248879, 0.9183654609999792, 0.9004354610000007, 0.9024432624099745]
+action for step150 if [-0.99999511]
+Step:150 loss_critic:3.777276259323781e-08 loss_actor:tensor([[0.5335]], grad_fn=<MulBackward0>)
+reward for step 200 is [0.04556674]
+obs for step 200 is [-1.291298785, 0.6066654609999773, 0.606435461000018, 0.6034432624099964]
+action for step200 if [-0.99999487]
+Step:200 loss_critic:4.606747725518116e-05 loss_actor:tensor([[0.4408]], grad_fn=<MulBackward0>)
+reward for step 250 is [0.02042807]
+obs for step 250 is [-2.267567335, 0.7073654609999949, 0.7094354609999982, 0.7034432624099907]
+action for step250 if [-0.9999947]
+Step:250 loss_critic:0.0003405254272159522 loss_actor:tensor([[0.4124]], grad_fn=<MulBackward0>)
+reward for step 300 is [0.01061633]
+obs for step 300 is [-1.1838327579999999, 0.7753654609999785, 0.7804354609999962, 0.7754432624099934]
+action for step300 if [-0.99999517]
+Step:300 loss_critic:1.2434022350433903e-05 loss_actor:tensor([[0.5032]], grad_fn=<MulBackward0>)
+reward for step 350 is [0.00274409]
+obs for step 350 is [-0.9139336222, 0.7763654609999833, 0.7774354610000103, 0.7754432624099934]
+action for step350 if [-0.99999529]
+Step:350 loss_critic:6.817169366223161e-05 loss_actor:tensor([[0.5190]], grad_fn=<MulBackward0>)
+reward for step 400 is [-0.01183841]
+obs for step 400 is [-0.9283097491, 0.8289654609999957, 0.8344354609999982, 0.8304432624100002]
+action for step400 if [-0.99999535]
+Step:400 loss_critic:7.507334018837438e-05 loss_actor:tensor([[0.5235]], grad_fn=<MulBackward0>)
+reward for step 450 is [-0.0230245]
+obs for step 450 is [-0.1302015768, 0.8406654609999862, 0.8414354610000032, 0.8384432624099816]
+action for step450 if [-0.99999547]
+Step:450 loss_critic:1.9732711005821615e-05 loss_actor:tensor([[0.5123]], grad_fn=<MulBackward0>)
+reward for step 500 is [-0.04495641]
+obs for step 500 is [0.4735255639, 0.8773654609999824, 0.8874354609999955, 0.8864432624099834]
+action for step500 if [-0.99999553]
+Step:500 loss_critic:1.1895903530260404e-08 loss_actor:tensor([[0.5351]], grad_fn=<MulBackward0>)
+reward for step 550 is [-0.06988259]
+obs for step 550 is [0.9079978492, 0.9368654609999965, 0.9384354610000116, 0.9384432624099759]
+action for step550 if [-0.99999553]
+Step:550 loss_critic:7.442133493663927e-06 loss_actor:tensor([[0.5679]], grad_fn=<MulBackward0>)
+reward for step 600 is [-0.13523053]
+obs for step 600 is [1.9747861919999998, 1.0573654609999892, 1.059435461000021, 1.0564432624099993]
+action for step600 if [-0.99999553]
+Step:600 loss_critic:1.0727383942705585e-06 loss_actor:tensor([[0.6289]], grad_fn=<MulBackward0>)
+reward for step 650 is [-0.07339072]
+obs for step 650 is [2.399735309, 0.9513654609999946, 0.953435460999998, 0.9514432624099811]
+action for step650 if [-0.99999553]
+Step:650 loss_critic:3.258740272937138e-05 loss_actor:tensor([[0.5512]], grad_fn=<MulBackward0>)
+reward for step 700 is [-0.08133253]
+obs for step 700 is [2.494020881, 0.9903654609999819, 0.9904354610000041, 0.9864432624099777]
+action for step700 if [-0.99999553]
+Step:700 loss_critic:0.0005651263023282939 loss_actor:tensor([[0.5896]], grad_fn=<MulBackward0>)
+reward for step 750 is [-0.02176142]
+obs for step 750 is [1.834194418, 0.8813654610000015, 0.8784354610000094, 0.8754432624099877]
+action for step750 if [-0.99999559]
+Step:750 loss_critic:3.317253116923664e-05 loss_actor:tensor([[0.5134]], grad_fn=<MulBackward0>)
+reward for step 800 is [-0.12027572]
+obs for step 800 is [2.370759895, 1.004365460999992, 1.0064354609999953, 1.0044432624099784]
+action for step800 if [-0.99999565]
+Step:800 loss_critic:3.227501711818924e-05 loss_actor:tensor([[0.5999]], grad_fn=<MulBackward0>)
+reward for step 850 is [-0.13977162]
+obs for step 850 is [2.83588584, 1.0123654610000017, 1.0164354610000146, 1.013443262409993]
+action for step850 if [-0.99999559]
+Step:850 loss_critic:5.458325591218212e-07 loss_actor:tensor([[0.6278]], grad_fn=<MulBackward0>)
+reward for step 900 is [-0.16060091]
+obs for step 900 is [2.2377826119999997, 1.060965460999995, 1.0624354610000069, 1.0584432624099804]
+action for step900 if [-0.99999571]
+Step:900 loss_critic:0.0001577951141114334 loss_actor:tensor([[0.6893]], grad_fn=<MulBackward0>)
+reward for step 950 is [-0.19140557]
+obs for step 950 is [2.371304825, 1.0881654609999885, 1.0864354610000078, 1.084443262409991]
+action for step950 if [-0.99999571]
+Step:950 loss_critic:0.00017885985202855767 loss_actor:tensor([[0.7077]], grad_fn=<MulBackward0>)
+reward for step 1000 is [-0.10095427]
+obs for step 1000 is [2.425733909, 0.994365461000001, 0.9954354609999996, 0.9944432624099875]
+action for step1000 if [-0.99999571]
+Step:1000 loss_critic:0.0003441992358856183 loss_actor:tensor([[0.6237]], grad_fn=<MulBackward0>)
+reward for step 1050 is [-0.10265819]
+obs for step 1050 is [2.182941557, 1.002865460999999, 1.0044354610000141, 1.0004432624099877]
+action for step1050 if [-0.99999577]
+Step:1050 loss_critic:4.538117338292129e-05 loss_actor:tensor([[0.6488]], grad_fn=<MulBackward0>)
+reward for step 1100 is [-0.07239223]
+obs for step 1100 is [1.748800979, 0.967765460999999, 0.9704354610000223, 0.9654432624099911]
+action for step1100 if [-0.99999583]
+Step:1100 loss_critic:5.71625639951827e-06 loss_actor:tensor([[0.6125]], grad_fn=<MulBackward0>)
+reward for step 1150 is [-0.09815652]
+obs for step 1150 is [1.56272657, 0.994065460999991, 0.9944354609999948, 0.9924432624099779]
+action for step1150 if [-0.99999583]
+Step:1150 loss_critic:8.178312580323265e-07 loss_actor:tensor([[0.6526]], grad_fn=<MulBackward0>)
+reward for step 1200 is [-0.12208495]
+obs for step 1200 is [1.605709325, 1.0187654609999868, 1.024435460999996, 1.0174432624099836]
+action for step1200 if [-0.99999583]
+Step:1200 loss_critic:1.2913904257765639e-05 loss_actor:tensor([[0.6696]], grad_fn=<MulBackward0>)
+reward for step 1250 is [-0.13403535]
+obs for step 1250 is [1.6948338180000002, 1.0240654609999922, 1.02143546100001, 1.0234432624099838]
+action for step1250 if [-0.99999589]
+Step:1250 loss_critic:2.4183767849812774e-07 loss_actor:tensor([[0.6968]], grad_fn=<MulBackward0>)
+reward for step 1300 is [-0.11355244]
+obs for step 1300 is [1.495199652, 1.007265461000003, 1.0104354610000144, 1.0084432624099975]
+action for step1300 if [-0.99999589]
+Step:1300 loss_critic:1.2425748112575312e-06 loss_actor:tensor([[0.6826]], grad_fn=<MulBackward0>)
+reward for step 1350 is [-0.1491846]
+obs for step 1350 is [1.4329759530000001, 1.0468654609999817, 1.0434354610000014, 1.0444432624099989]
+action for step1350 if [-0.99999595]
+Step:1350 loss_critic:0.00021235458387620123 loss_actor:tensor([[0.7419]], grad_fn=<MulBackward0>)
+episode num: 2
+reset obs:[1914015.16, 140.1804, 140.217, 140.239]
+reward for step 50 is [-0.00330833]
+obs for step 50 is [-0.5198139023, 0.8631654609999941, 0.8624354610000182, 0.864443262409992]
+action for step50 if [-0.99999595]
+Step:50 loss_critic:1.0097938509575649e-05 loss_actor:tensor([[0.5873]], grad_fn=<MulBackward0>)
+reward for step 100 is [-0.01026395]
+obs for step 100 is [-0.23200301510000002, 0.9268654609999771, 0.9264354610000112, 0.9264432624099754]
+action for step100 if [-0.99999601]
+Step:100 loss_critic:5.045967602912614e-06 loss_actor:tensor([[0.6002]], grad_fn=<MulBackward0>)
+reward for step 150 is [-0.00970285]
+obs for step 150 is [0.0397248879, 0.9183654609999792, 0.9004354610000007, 0.9024432624099745]
+action for step150 if [-0.99999607]
+Step:150 loss_critic:6.695378878463503e-11 loss_actor:tensor([[0.6011]], grad_fn=<MulBackward0>)
+reward for step 200 is [0.04556679]
+obs for step 200 is [-1.291298785, 0.6066654609999773, 0.606435461000018, 0.6034432624099964]
+action for step200 if [-0.99999583]
+Step:200 loss_critic:3.541808314059863e-05 loss_actor:tensor([[0.5449]], grad_fn=<MulBackward0>)
+reward for step 250 is [0.02042809]
+obs for step 250 is [-2.267567335, 0.7073654609999949, 0.7094354609999982, 0.7034432624099907]
+action for step250 if [-0.99999571]
+Step:250 loss_critic:3.486362211371792e-05 loss_actor:tensor([[0.5892]], grad_fn=<MulBackward0>)
+reward for step 300 is [0.01061634]
+obs for step 300 is [-1.1838327579999999, 0.7753654609999785, 0.7804354609999962, 0.7754432624099934]
+action for step300 if [-0.99999607]
+Step:300 loss_critic:5.232445164764267e-06 loss_actor:tensor([[0.5785]], grad_fn=<MulBackward0>)
+reward for step 350 is [0.00274409]
+obs for step 350 is [-0.9139336222, 0.7763654609999833, 0.7774354610000103, 0.7754432624099934]
+action for step350 if [-0.99999613]
+Step:350 loss_critic:2.29897151466083e-05 loss_actor:tensor([[0.5927]], grad_fn=<MulBackward0>)
+reward for step 400 is [-0.01183842]
+obs for step 400 is [-0.9283097491, 0.8289654609999957, 0.8344354609999982, 0.8304432624100002]
+action for step400 if [-0.99999613]
+Step:400 loss_critic:3.1468958516670408e-06 loss_actor:tensor([[0.6094]], grad_fn=<MulBackward0>)
+reward for step 450 is [-0.02302452]
+obs for step 450 is [-0.1302015768, 0.8406654609999862, 0.8414354610000032, 0.8384432624099816]
+action for step450 if [-0.99999619]
+Step:450 loss_critic:5.129225397914985e-05 loss_actor:tensor([[0.6052]], grad_fn=<MulBackward0>)
+reward for step 500 is [-0.04495645]
+obs for step 500 is [0.4735255639, 0.8773654609999824, 0.8874354609999955, 0.8864432624099834]
+action for step500 if [-0.99999619]
+Step:500 loss_critic:4.70132224944159e-05 loss_actor:tensor([[0.6226]], grad_fn=<MulBackward0>)
+reward for step 550 is [-0.06988265]
+obs for step 550 is [0.9079978492, 0.9368654609999965, 0.9384354610000116, 0.9384432624099759]
+action for step550 if [-0.99999624]
+Step:550 loss_critic:4.971849018234292e-06 loss_actor:tensor([[0.6677]], grad_fn=<MulBackward0>)
+reward for step 600 is [-0.13523065]
+obs for step 600 is [1.9747861919999998, 1.0573654609999892, 1.059435461000021, 1.0564432624099993]
+action for step600 if [-0.99999619]
+Step:600 loss_critic:0.0003191898811344868 loss_actor:tensor([[0.7636]], grad_fn=<MulBackward0>)
+reward for step 650 is [-0.07339079]
+obs for step 650 is [2.399735309, 0.9513654609999946, 0.953435460999998, 0.9514432624099811]
+action for step650 if [-0.99999619]
+Step:650 loss_critic:1.6650440038619707e-05 loss_actor:tensor([[0.6584]], grad_fn=<MulBackward0>)
+reward for step 700 is [-0.0813326]
+obs for step 700 is [2.494020881, 0.9903654609999819, 0.9904354610000041, 0.9864432624099777]
+action for step700 if [-0.99999619]
+Step:700 loss_critic:0.0005989711844607314 loss_actor:tensor([[0.7144]], grad_fn=<MulBackward0>)
+reward for step 750 is [-0.02176145]
+obs for step 750 is [1.834194418, 0.8813654610000015, 0.8784354610000094, 0.8754432624099877]
+action for step750 if [-0.99999624]
+Step:750 loss_critic:3.843570851470034e-05 loss_actor:tensor([[0.6323]], grad_fn=<MulBackward0>)
+reward for step 800 is [-0.12027583]
+obs for step 800 is [2.370759895, 1.004365460999992, 1.0064354609999953, 1.0044432624099784]
+action for step800 if [-0.99999624]
+Step:800 loss_critic:5.267800431839828e-06 loss_actor:tensor([[0.7344]], grad_fn=<MulBackward0>)
+reward for step 850 is [-0.13977174]
+obs for step 850 is [2.83588584, 1.0123654610000017, 1.0164354610000146, 1.013443262409993]
+action for step850 if [-0.99999624]
+Step:850 loss_critic:6.251818575843598e-05 loss_actor:tensor([[0.7707]], grad_fn=<MulBackward0>)
+reward for step 900 is [-0.16060105]
+obs for step 900 is [2.2377826119999997, 1.060965460999995, 1.0624354610000069, 1.0584432624099804]
+action for step900 if [-0.9999963]
+Step:900 loss_critic:0.00016795751708204745 loss_actor:tensor([[0.8130]], grad_fn=<MulBackward0>)
+reward for step 950 is [-0.19140573]
+obs for step 950 is [2.371304825, 1.0881654609999885, 1.0864354610000078, 1.084443262409991]
+action for step950 if [-0.9999963]
+Step:950 loss_critic:0.0002293192019407322 loss_actor:tensor([[0.8213]], grad_fn=<MulBackward0>)
+reward for step 1000 is [-0.10095437]
+obs for step 1000 is [2.425733909, 0.994365461000001, 0.9954354609999996, 0.9944432624099875]
+action for step1000 if [-0.9999963]
+Step:1000 loss_critic:0.0005882341728114437 loss_actor:tensor([[0.7472]], grad_fn=<MulBackward0>)
+reward for step 1050 is [-0.10265829]
+obs for step 1050 is [2.182941557, 1.002865460999999, 1.0044354610000141, 1.0004432624099877]
+action for step1050 if [-0.99999636]
+Step:1050 loss_critic:9.750281153069706e-06 loss_actor:tensor([[0.7689]], grad_fn=<MulBackward0>)
+reward for step 1100 is [-0.0723923]
+obs for step 1100 is [1.748800979, 0.967765460999999, 0.9704354610000223, 0.9654432624099911]
+action for step1100 if [-0.99999642]
+Step:1100 loss_critic:6.443265063224982e-07 loss_actor:tensor([[0.7424]], grad_fn=<MulBackward0>)
+reward for step 1150 is [-0.09815661]
+obs for step 1150 is [1.56272657, 0.994065460999991, 0.9944354609999948, 0.9924432624099779]
+action for step1150 if [-0.99999648]
+Step:1150 loss_critic:3.112677902860301e-07 loss_actor:tensor([[0.7814]], grad_fn=<MulBackward0>)
+reward for step 1200 is [-0.12208506]
+obs for step 1200 is [1.605709325, 1.0187654609999868, 1.024435460999996, 1.0174432624099836]
+action for step1200 if [-0.99999648]
+Step:1200 loss_critic:0.00011011607512094096 loss_actor:tensor([[0.8183]], grad_fn=<MulBackward0>)
+reward for step 1250 is [-0.13403546]
+obs for step 1250 is [1.6948338180000002, 1.0240654609999922, 1.02143546100001, 1.0234432624099838]
+action for step1250 if [-0.99999648]
+Step:1250 loss_critic:1.0924627118090656e-05 loss_actor:tensor([[0.8322]], grad_fn=<MulBackward0>)
+reward for step 1300 is [-0.11355254]
+obs for step 1300 is [1.495199652, 1.007265461000003, 1.0104354610000144, 1.0084432624099975]
+action for step1300 if [-0.99999654]
+Step:1300 loss_critic:3.005094367841393e-06 loss_actor:tensor([[0.8173]], grad_fn=<MulBackward0>)
+reward for step 1350 is [-0.14918472]
+obs for step 1350 is [1.4329759530000001, 1.0468654609999817, 1.0434354610000014, 1.0444432624099989]
+action for step1350 if [-0.99999654]
+Step:1350 loss_critic:0.00024463881741019106 loss_actor:tensor([[0.8819]], grad_fn=<MulBackward0>)
+episode num: 3
+reset obs:[1914015.16, 140.1804, 140.217, 140.239]
+reward for step 50 is [-0.00330833]
+obs for step 50 is [-0.5198139023, 0.8631654609999941, 0.8624354610000182, 0.864443262409992]
+action for step50 if [-0.99999654]
+Step:50 loss_critic:7.289032830319248e-06 loss_actor:tensor([[0.7149]], grad_fn=<MulBackward0>)
+reward for step 100 is [-0.01026395]
+obs for step 100 is [-0.23200301510000002, 0.9268654609999771, 0.9264354610000112, 0.9264432624099754]
+action for step100 if [-0.99999666]
+Step:100 loss_critic:4.245936856351422e-07 loss_actor:tensor([[0.7279]], grad_fn=<MulBackward0>)
+reward for step 150 is [-0.00970286]
+obs for step 150 is [0.0397248879, 0.9183654609999792, 0.9004354610000007, 0.9024432624099745]
+action for step150 if [-0.99999672]
+Step:150 loss_critic:6.084251808585628e-05 loss_actor:tensor([[0.7436]], grad_fn=<MulBackward0>)
+reward for step 200 is [0.04556682]
+obs for step 200 is [-1.291298785, 0.6066654609999773, 0.606435461000018, 0.6034432624099964]
+action for step200 if [-0.9999966]
+Step:200 loss_critic:8.487539640225287e-08 loss_actor:tensor([[0.6829]], grad_fn=<MulBackward0>)
+reward for step 250 is [0.02042811]
+obs for step 250 is [-2.267567335, 0.7073654609999949, 0.7094354609999982, 0.7034432624099907]
+action for step250 if [-0.99999654]
+Step:250 loss_critic:5.276660774652934e-05 loss_actor:tensor([[0.6860]], grad_fn=<MulBackward0>)
+reward for step 300 is [0.01061634]
+obs for step 300 is [-1.1838327579999999, 0.7753654609999785, 0.7804354609999962, 0.7754432624099934]
+action for step300 if [-0.99999684]
+Step:300 loss_critic:1.3845566981539882e-05 loss_actor:tensor([[0.7188]], grad_fn=<MulBackward0>)
+reward for step 350 is [0.00274409]
+obs for step 350 is [-0.9139336222, 0.7763654609999833, 0.7774354610000103, 0.7754432624099934]
+action for step350 if [-0.99999696]
+Step:350 loss_critic:1.898511393735855e-05 loss_actor:tensor([[0.7210]], grad_fn=<MulBackward0>)
+reward for step 400 is [-0.01183843]
+obs for step 400 is [-0.9283097491, 0.8289654609999957, 0.8344354609999982, 0.8304432624100002]
+action for step400 if [-0.99999702]
+Step:400 loss_critic:7.161787451568937e-06 loss_actor:tensor([[0.7458]], grad_fn=<MulBackward0>)
+reward for step 450 is [-0.02302454]
+obs for step 450 is [-0.1302015768, 0.8406654609999862, 0.8414354610000032, 0.8384432624099816]
+action for step450 if [-0.99999714]
+Step:450 loss_critic:7.398479910758654e-05 loss_actor:tensor([[0.7357]], grad_fn=<MulBackward0>)
+reward for step 500 is [-0.04495648]
+obs for step 500 is [0.4735255639, 0.8773654609999824, 0.8874354609999955, 0.8864432624099834]
+action for step500 if [-0.9999972]
+Step:500 loss_critic:3.4491765720544546e-05 loss_actor:tensor([[0.7855]], grad_fn=<MulBackward0>)
+reward for step 550 is [-0.06988271]
+obs for step 550 is [0.9079978492, 0.9368654609999965, 0.9384354610000116, 0.9384432624099759]
+action for step550 if [-0.9999972]
+Step:550 loss_critic:7.11165764968811e-06 loss_actor:tensor([[0.7998]], grad_fn=<MulBackward0>)
+reward for step 600 is [-0.13523076]
+obs for step 600 is [1.9747861919999998, 1.0573654609999892, 1.059435461000021, 1.0564432624099993]
+action for step600 if [-0.9999972]
+Step:600 loss_critic:4.6247159609946094e-07 loss_actor:tensor([[0.8787]], grad_fn=<MulBackward0>)
+reward for step 650 is [-0.07339085]
+obs for step 650 is [2.399735309, 0.9513654609999946, 0.953435460999998, 0.9514432624099811]
+action for step650 if [-0.9999972]
+Step:650 loss_critic:0.0003167470101887245 loss_actor:tensor([[0.8424]], grad_fn=<MulBackward0>)
+reward for step 700 is [-0.08133267]
+obs for step 700 is [2.494020881, 0.9903654609999819, 0.9904354610000041, 0.9864432624099777]
+action for step700 if [-0.9999972]
+Step:700 loss_critic:0.00038671276831272046 loss_actor:tensor([[0.8530]], grad_fn=<MulBackward0>)
+reward for step 750 is [-0.02176146]
+obs for step 750 is [1.834194418, 0.8813654610000015, 0.8784354610000094, 0.8754432624099877]
+action for step750 if [-0.9999972]
+Step:750 loss_critic:2.419147825969803e-05 loss_actor:tensor([[0.7684]], grad_fn=<MulBackward0>)
+reward for step 800 is [-0.12027592]
+obs for step 800 is [2.370759895, 1.004365460999992, 1.0064354609999953, 1.0044432624099784]
+action for step800 if [-0.9999972]
+Step:800 loss_critic:7.328543933196278e-09 loss_actor:tensor([[0.8763]], grad_fn=<MulBackward0>)
+reward for step 850 is [-0.13977186]
+obs for step 850 is [2.83588584, 1.0123654610000017, 1.0164354610000146, 1.013443262409993]
+action for step850 if [-0.99999714]
+Step:850 loss_critic:8.469215587009639e-05 loss_actor:tensor([[0.8898]], grad_fn=<MulBackward0>)
+reward for step 900 is [-0.16060118]
+obs for step 900 is [2.2377826119999997, 1.060965460999995, 1.0624354610000069, 1.0584432624099804]
+action for step900 if [-0.9999972]
+Step:900 loss_critic:0.00028521650911793935 loss_actor:tensor([[0.9127]], grad_fn=<MulBackward0>)
+reward for step 950 is [-0.19140589]
+obs for step 950 is [2.371304825, 1.0881654609999885, 1.0864354610000078, 1.084443262409991]
+action for step950 if [-0.9999972]
+Step:950 loss_critic:0.0003684989634040116 loss_actor:tensor([[0.9518]], grad_fn=<MulBackward0>)
+reward for step 1000 is [-0.10095445]
+obs for step 1000 is [2.425733909, 0.994365461000001, 0.9954354609999996, 0.9944432624099875]
+action for step1000 if [-0.9999972]
+Step:1000 loss_critic:0.0015240172292783239 loss_actor:tensor([[0.9565]], grad_fn=<MulBackward0>)
+reward for step 1050 is [-0.10265837]
+obs for step 1050 is [2.182941557, 1.002865460999999, 1.0044354610000141, 1.0004432624099877]
+action for step1050 if [-0.9999972]
+Step:1050 loss_critic:3.6985416306813504e-05 loss_actor:tensor([[0.9083]], grad_fn=<MulBackward0>)
+reward for step 1100 is [-0.07239236]
+obs for step 1100 is [1.748800979, 0.967765460999999, 0.9704354610000223, 0.9654432624099911]
+action for step1100 if [-0.99999726]
+Step:1100 loss_critic:1.0966657033373391e-05 loss_actor:tensor([[0.8925]], grad_fn=<MulBackward0>)
+reward for step 1150 is [-0.09815669]
+obs for step 1150 is [1.56272657, 0.994065460999991, 0.9944354609999948, 0.9924432624099779]
+action for step1150 if [-0.99999726]
+Step:1150 loss_critic:1.9291884613032916e-06 loss_actor:tensor([[0.9299]], grad_fn=<MulBackward0>)
+reward for step 1200 is [-0.12208516]
+obs for step 1200 is [1.605709325, 1.0187654609999868, 1.024435460999996, 1.0174432624099836]
+action for step1200 if [-0.99999726]
+Step:1200 loss_critic:8.685382639593338e-07 loss_actor:tensor([[0.9596]], grad_fn=<MulBackward0>)
+reward for step 1250 is [-0.13403557]
+obs for step 1250 is [1.6948338180000002, 1.0240654609999922, 1.02143546100001, 1.0234432624099838]
+action for step1250 if [-0.99999726]
+Step:1250 loss_critic:2.203325990744457e-06 loss_actor:tensor([[0.9809]], grad_fn=<MulBackward0>)
+reward for step 1300 is [-0.11355263]
+obs for step 1300 is [1.495199652, 1.007265461000003, 1.0104354610000144, 1.0084432624099975]
+action for step1300 if [-0.99999726]
+Step:1300 loss_critic:8.979847073360216e-06 loss_actor:tensor([[0.9783]], grad_fn=<MulBackward0>)
+reward for step 1350 is [-0.14918485]
+obs for step 1350 is [1.4329759530000001, 1.0468654609999817, 1.0434354610000014, 1.0444432624099989]
+action for step1350 if [-0.99999726]
+Step:1350 loss_critic:0.0003344940168349129 loss_actor:tensor([[0.9962]], grad_fn=<MulBackward0>)
+episode num: 4
+reset obs:[1914015.16, 140.1804, 140.217, 140.239]
+reward for step 50 is [-0.00330833]
+obs for step 50 is [-0.5198139023, 0.8631654609999941, 0.8624354610000182, 0.864443262409992]
+action for step50 if [-0.99999726]
+Step:50 loss_critic:0.005123327235141539 loss_actor:tensor([[0.9997]], grad_fn=<MulBackward0>)
+reward for step 100 is [-0.01026396]
+obs for step 100 is [-0.23200301510000002, 0.9268654609999771, 0.9264354610000112, 0.9264432624099754]
+action for step100 if [-0.99999702]
+Step:100 loss_critic:1.093891225786104e-05 loss_actor:tensor([[0.9261]], grad_fn=<MulBackward0>)
+reward for step 150 is [-0.00970287]
+obs for step 150 is [0.0397248879, 0.9183654609999792, 0.9004354610000007, 0.9024432624099745]
+action for step150 if [-0.9999966]
+Step:150 loss_critic:1.3909498877935692e-07 loss_actor:tensor([[0.9387]], grad_fn=<MulBackward0>)
+reward for step 200 is [0.04556683]
+obs for step 200 is [-1.291298785, 0.6066654609999773, 0.606435461000018, 0.6034432624099964]
+action for step200 if [-0.99999601]
+Step:200 loss_critic:5.942858014352831e-06 loss_actor:tensor([[0.8923]], grad_fn=<MulBackward0>)
+reward for step 250 is [0.02042811]
+obs for step 250 is [-2.267567335, 0.7073654609999949, 0.7094354609999982, 0.7034432624099907]
+action for step250 if [-0.99999517]
+Step:250 loss_critic:4.3071043525319365e-08 loss_actor:tensor([[0.9368]], grad_fn=<MulBackward0>)
+reward for step 300 is [0.01061635]
+obs for step 300 is [-1.1838327579999999, 0.7753654609999785, 0.7804354609999962, 0.7754432624099934]
+action for step300 if [-0.99999523]
+Step:300 loss_critic:1.3886725411043018e-05 loss_actor:tensor([[0.9476]], grad_fn=<MulBackward0>)
+reward for step 350 is [0.0027441]
+obs for step 350 is [-0.9139336222, 0.7763654609999833, 0.7774354610000103, 0.7754432624099934]
+action for step350 if [-0.99999481]
+Step:350 loss_critic:3.177433420757677e-05 loss_actor:tensor([[0.9452]], grad_fn=<MulBackward0>)
+reward for step 400 is [-0.01183841]
+obs for step 400 is [-0.9283097491, 0.8289654609999957, 0.8344354609999982, 0.8304432624100002]
+action for step400 if [-0.9999944]
+Step:400 loss_critic:0.00021033843997647937 loss_actor:tensor([[0.9496]], grad_fn=<MulBackward0>)
+reward for step 450 is [-0.02302451]
+obs for step 450 is [-0.1302015768, 0.8406654609999862, 0.8414354610000032, 0.8384432624099816]
+action for step450 if [-0.99999422]
+Step:450 loss_critic:2.369753362509936e-05 loss_actor:tensor([[0.9694]], grad_fn=<MulBackward0>)
+reward for step 500 is [-0.04495643]
+obs for step 500 is [0.4735255639, 0.8773654609999824, 0.8874354609999955, 0.8864432624099834]
+action for step500 if [-0.9999941]
+Step:500 loss_critic:1.370449227904597e-05 loss_actor:tensor([[0.9898]], grad_fn=<MulBackward0>)
+reward for step 550 is [-0.06988262]
+obs for step 550 is [0.9079978492, 0.9368654609999965, 0.9384354610000116, 0.9384432624099759]
+action for step550 if [-0.99999398]
+Step:550 loss_critic:0.000958856489528988 loss_actor:tensor([[0.9764]], grad_fn=<MulBackward0>)
+reward for step 600 is [-0.13523058]
+obs for step 600 is [1.9747861919999998, 1.0573654609999892, 1.059435461000021, 1.0564432624099993]
+action for step600 if [-0.99999386]
+Step:600 loss_critic:0.0037715463263996267 loss_actor:tensor([[0.9982]], grad_fn=<MulBackward0>)
+reward for step 650 is [-0.07339076]
+obs for step 650 is [2.399735309, 0.9513654609999946, 0.953435460999998, 0.9514432624099811]
+action for step650 if [-0.9999938]
+Step:650 loss_critic:0.0004149034408736676 loss_actor:tensor([[0.9992]], grad_fn=<MulBackward0>)
+reward for step 700 is [-0.08133257]
+obs for step 700 is [2.494020881, 0.9903654609999819, 0.9904354610000041, 0.9864432624099777]
+action for step700 if [-0.9999938]
+Step:700 loss_critic:0.0008505082858365052 loss_actor:tensor([[0.9995]], grad_fn=<MulBackward0>)
+reward for step 750 is [-0.02176147]
+obs for step 750 is [1.834194418, 0.8813654610000015, 0.8784354610000094, 0.8754432624099877]
+action for step750 if [-0.9999938]
+Step:750 loss_critic:9.222640778407748e-05 loss_actor:tensor([[0.9995]], grad_fn=<MulBackward0>)
+reward for step 800 is [-0.12027575]
+obs for step 800 is [2.370759895, 1.004365460999992, 1.0064354609999953, 1.0044432624099784]
+action for step800 if [-0.9999938]
+Step:800 loss_critic:0.003911165675887463 loss_actor:tensor([[0.9997]], grad_fn=<MulBackward0>)
+reward for step 850 is [-0.13977164]
+obs for step 850 is [2.83588584, 1.0123654610000017, 1.0164354610000146, 1.013443262409993]
+action for step850 if [-0.99999374]
+Step:850 loss_critic:0.0061919003172251005 loss_actor:tensor([[0.9998]], grad_fn=<MulBackward0>)
+reward for step 900 is [-0.16060092]
+obs for step 900 is [2.2377826119999997, 1.060965460999995, 1.0624354610000069, 1.0584432624099804]
+action for step900 if [-0.99999386]
+Step:900 loss_critic:0.009140532777356722 loss_actor:tensor([[0.9998]], grad_fn=<MulBackward0>)
+reward for step 950 is [-0.19140556]
+obs for step 950 is [2.371304825, 1.0881654609999885, 1.0864354610000078, 1.084443262409991]
+action for step950 if [-0.99999386]
+Step:950 loss_critic:0.014226356598228938 loss_actor:tensor([[0.9999]], grad_fn=<MulBackward0>)
+reward for step 1000 is [-0.10095432]
+obs for step 1000 is [2.425733909, 0.994365461000001, 0.9954354609999996, 0.9944432624099875]
+action for step1000 if [-0.9999938]
+Step:1000 loss_critic:0.003244322612299979 loss_actor:tensor([[0.9999]], grad_fn=<MulBackward0>)
+reward for step 1050 is [-0.10265824]
+obs for step 1050 is [2.182941557, 1.002865460999999, 1.0044354610000141, 1.0004432624099877]
+action for step1050 if [-0.9999938]
+Step:1050 loss_critic:0.0035429475368082006 loss_actor:tensor([[0.9999]], grad_fn=<MulBackward0>)
+reward for step 1100 is [-0.0723923]
+obs for step 1100 is [1.748800979, 0.967765460999999, 0.9704354610000223, 0.9654432624099911]
+action for step1100 if [-0.99999386]
+Step:1100 loss_critic:0.0015404186327043527 loss_actor:tensor([[0.9999]], grad_fn=<MulBackward0>)
+reward for step 1150 is [-0.09815657]
+obs for step 1150 is [1.56272657, 0.994065460999991, 0.9944354609999948, 0.9924432624099779]
+action for step1150 if [-0.99999386]
+Step:1150 loss_critic:0.0034074418958832454 loss_actor:tensor([[0.9999]], grad_fn=<MulBackward0>)
+reward for step 1200 is [-0.12208498]
+obs for step 1200 is [1.605709325, 1.0187654609999868, 1.024435460999996, 1.0174432624099836]
+action for step1200 if [-0.99999386]
+Step:1200 loss_critic:0.005780639357211824 loss_actor:tensor([[0.9999]], grad_fn=<MulBackward0>)
+reward for step 1250 is [-0.13403537]
+obs for step 1250 is [1.6948338180000002, 1.0240654609999922, 1.02143546100001, 1.0234432624099838]
+action for step1250 if [-0.99999386]
+Step:1250 loss_critic:0.007238742910127602 loss_actor:tensor([[0.9999]], grad_fn=<MulBackward0>)
+reward for step 1300 is [-0.11355248]
+obs for step 1300 is [1.495199652, 1.007265461000003, 1.0104354610000144, 1.0084432624099975]
+action for step1300 if [-0.99999386]
+Step:1300 loss_critic:0.005053493410144828 loss_actor:tensor([[0.9999]], grad_fn=<MulBackward0>)
+reward for step 1350 is [-0.1491846]
+obs for step 1350 is [1.4329759530000001, 1.0468654609999817, 1.0434354610000014, 1.0444432624099989]
+action for step1350 if [-0.99999386]
+Step:1350 loss_critic:0.009346809129278455 loss_actor:tensor([[0.9999]], grad_fn=<MulBackward0>)
+episode num: 5
+reset obs:[1914015.16, 140.1804, 140.217, 140.239]
+reward for step 50 is [-0.00330832]
+obs for step 50 is [-0.5198139023, 0.8631654609999941, 0.8624354610000182, 0.864443262409992]
+action for step50 if [-0.99999386]
+Step:50 loss_critic:3.7311658492558294e-05 loss_actor:tensor([[0.9999]], grad_fn=<MulBackward0>)
+reward for step 100 is [-0.01026393]
+obs for step 100 is [-0.23200301510000002, 0.9268654609999771, 0.9264354610000112, 0.9264432624099754]
+action for step100 if [-0.99999386]
+Step:100 loss_critic:9.315306388390836e-07 loss_actor:tensor([[0.9999]], grad_fn=<MulBackward0>)
+reward for step 150 is [-0.00970283]
+obs for step 150 is [0.0397248879, 0.9183654609999792, 0.9004354610000007, 0.9024432624099745]
+action for step150 if [-0.99999386]
+Step:150 loss_critic:1.3647017343523015e-06 loss_actor:tensor([[0.9999]], grad_fn=<MulBackward0>)
+reward for step 200 is [0.04556669]
+obs for step 200 is [-1.291298785, 0.6066654609999773, 0.606435461000018, 0.6034432624099964]
+action for step200 if [-0.9999935]
+Step:200 loss_critic:0.001601651123618814 loss_actor:tensor([[0.9999]], grad_fn=<MulBackward0>)
+reward for step 250 is [0.02042805]
+obs for step 250 is [-2.267567335, 0.7073654609999949, 0.7094354609999982, 0.7034432624099907]
+action for step250 if [-0.99999309]
+Step:250 loss_critic:0.0004854611891847765 loss_actor:tensor([[0.9999]], grad_fn=<MulBackward0>)
+reward for step 300 is [0.01061632]
+obs for step 300 is [-1.1838327579999999, 0.7753654609999785, 0.7804354609999962, 0.7754432624099934]
+action for step300 if [-0.99999368]
+Step:300 loss_critic:0.00022879991831908133 loss_actor:tensor([[0.9999]], grad_fn=<MulBackward0>)
+reward for step 350 is [0.00274409]
+obs for step 350 is [-0.9139336222, 0.7763654609999833, 0.7774354610000103, 0.7754432624099934]
+action for step350 if [-0.99999374]
+Step:350 loss_critic:9.003609892993569e-05 loss_actor:tensor([[0.9999]], grad_fn=<MulBackward0>)
+reward for step 400 is [-0.01183839]
+obs for step 400 is [-0.9283097491, 0.8289654609999957, 0.8344354609999982, 0.8304432624100002]
+action for step400 if [-0.9999938]
+Step:400 loss_critic:7.842860104717543e-07 loss_actor:tensor([[0.9999]], grad_fn=<MulBackward0>)
+reward for step 450 is [-0.02302447]
+obs for step 450 is [-0.1302015768, 0.8406654609999862, 0.8414354610000032, 0.8384432624099816]
+action for step450 if [-0.99999386]
+Step:450 loss_critic:7.825786156970468e-05 loss_actor:tensor([[0.9999]], grad_fn=<MulBackward0>)
+reward for step 500 is [-0.04495634]
+obs for step 500 is [0.4735255639, 0.8773654609999824, 0.8874354609999955, 0.8864432624099834]
+action for step500 if [-0.99999386]
+Step:500 loss_critic:0.0005953230540980995 loss_actor:tensor([[0.9999]], grad_fn=<MulBackward0>)
+reward for step 550 is [-0.06988249]
+obs for step 550 is [0.9079978492, 0.9368654609999965, 0.9384354610000116, 0.9384432624099759]
+action for step550 if [-0.99999386]
+Step:550 loss_critic:0.0017693103468865788 loss_actor:tensor([[0.9999]], grad_fn=<MulBackward0>)
+reward for step 600 is [-0.13523034]
+obs for step 600 is [1.9747861919999998, 1.0573654609999892, 1.059435461000021, 1.0564432624099993]
+action for step600 if [-0.99999386]
+Step:600 loss_critic:0.007797238337918002 loss_actor:tensor([[0.9999]], grad_fn=<MulBackward0>)
+reward for step 650 is [-0.07339062]
+obs for step 650 is [2.399735309, 0.9513654609999946, 0.953435460999998, 0.9514432624099811]
+action for step650 if [-0.99999374]
+Step:650 loss_critic:0.001989263068607886 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 700 is [-0.08133242]
+obs for step 700 is [2.494020881, 0.9903654609999819, 0.9904354610000041, 0.9864432624099777]
+action for step700 if [-0.99999374]
+Step:700 loss_critic:0.0025241245656723145 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 750 is [-0.0217614]
+obs for step 750 is [1.834194418, 0.8813654610000015, 0.8784354610000094, 0.8754432624099877]
+action for step750 if [-0.9999938]
+Step:750 loss_critic:6.624890148860481e-05 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 800 is [-0.12027555]
+obs for step 800 is [2.370759895, 1.004365460999992, 1.0064354609999953, 1.0044432624099784]
+action for step800 if [-0.9999938]
+Step:800 loss_critic:0.006055659996129721 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 850 is [-0.13977142]
+obs for step 850 is [2.83588584, 1.0123654610000017, 1.0164354610000146, 1.013443262409993]
+action for step850 if [-0.99999374]
+Step:850 loss_critic:0.008394071890641494 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 900 is [-0.16060067]
+obs for step 900 is [2.2377826119999997, 1.060965460999995, 1.0624354610000069, 1.0584432624099804]
+action for step900 if [-0.9999938]
+Step:900 loss_critic:0.011312588979901598 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 950 is [-0.19140528]
+obs for step 950 is [2.371304825, 1.0881654609999885, 1.0864354610000078, 1.084443262409991]
+action for step950 if [-0.9999938]
+Step:950 loss_critic:0.016423743189683523 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1000 is [-0.10095413]
+obs for step 1000 is [2.425733909, 0.994365461000001, 0.9954354609999996, 0.9944432624099875]
+action for step1000 if [-0.9999938]
+Step:1000 loss_critic:0.004122612711341581 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1050 is [-0.10265805]
+obs for step 1050 is [2.182941557, 1.002865460999999, 1.0044354610000141, 1.0004432624099877]
+action for step1050 if [-0.9999938]
+Step:1050 loss_critic:0.004280186084887509 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1100 is [-0.07239214]
+obs for step 1100 is [1.748800979, 0.967765460999999, 0.9704354610000223, 0.9654432624099911]
+action for step1100 if [-0.99999386]
+Step:1100 loss_critic:0.0019387775234747974 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1150 is [-0.09815638]
+obs for step 1150 is [1.56272657, 0.994065460999991, 0.9944354609999948, 0.9924432624099779]
+action for step1150 if [-0.99999386]
+Step:1150 loss_critic:0.003876070359168786 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1200 is [-0.12208478]
+obs for step 1200 is [1.605709325, 1.0187654609999868, 1.024435460999996, 1.0174432624099836]
+action for step1200 if [-0.99999386]
+Step:1200 loss_critic:0.0062703542401433675 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1250 is [-0.13403515]
+obs for step 1250 is [1.6948338180000002, 1.0240654609999922, 1.02143546100001, 1.0234432624099838]
+action for step1250 if [-0.99999386]
+Step:1250 loss_critic:0.007681149478463047 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1300 is [-0.11355228]
+obs for step 1300 is [1.495199652, 1.007265461000003, 1.0104354610000144, 1.0084432624099975]
+action for step1300 if [-0.99999386]
+Step:1300 loss_critic:0.005353036163702248 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1350 is [-0.14918437]
+obs for step 1350 is [1.4329759530000001, 1.0468654609999817, 1.0434354610000014, 1.0444432624099989]
+action for step1350 if [-0.99999386]
+Step:1350 loss_critic:0.009675737681252398 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+episode num: 6
+reset obs:[1914015.16, 140.1804, 140.217, 140.239]
+reward for step 50 is [-0.00330832]
+obs for step 50 is [-0.5198139023, 0.8631654609999941, 0.8624354610000182, 0.864443262409992]
+action for step50 if [-0.99999386]
+Step:50 loss_critic:2.2841808065194578e-05 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 100 is [-0.01026393]
+obs for step 100 is [-0.23200301510000002, 0.9268654609999771, 0.9264354610000112, 0.9264432624099754]
+action for step100 if [-0.99999386]
+Step:100 loss_critic:2.0644817220330507e-08 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 150 is [-0.00970283]
+obs for step 150 is [0.0397248879, 0.9183654609999792, 0.9004354610000007, 0.9024432624099745]
+action for step150 if [-0.99999386]
+Step:150 loss_critic:6.199191813645276e-08 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 200 is [0.04556669]
+obs for step 200 is [-1.291298785, 0.6066654609999773, 0.606435461000018, 0.6034432624099964]
+action for step200 if [-0.99999344]
+Step:200 loss_critic:0.0015465981559603214 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 250 is [0.02042805]
+obs for step 250 is [-2.267567335, 0.7073654609999949, 0.7094354609999982, 0.7034432624099907]
+action for step250 if [-0.99999309]
+Step:250 loss_critic:0.000464464794178493 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 300 is [0.01061632]
+obs for step 300 is [-1.1838327579999999, 0.7753654609999785, 0.7804354609999962, 0.7754432624099934]
+action for step300 if [-0.99999368]
+Step:300 loss_critic:0.00021335491639100224 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 350 is [0.00274409]
+obs for step 350 is [-0.9139336222, 0.7763654609999833, 0.7774354610000103, 0.7754432624099934]
+action for step350 if [-0.99999374]
+Step:350 loss_critic:8.167889441859936e-05 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 400 is [-0.01183839]
+obs for step 400 is [-0.9283097491, 0.8289654609999957, 0.8344354609999982, 0.8304432624100002]
+action for step400 if [-0.9999938]
+Step:400 loss_critic:1.6280823350842214e-06 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 450 is [-0.02302447]
+obs for step 450 is [-0.1302015768, 0.8406654609999862, 0.8414354610000032, 0.8384432624099816]
+action for step450 if [-0.99999386]
+Step:450 loss_critic:8.441218314475171e-05 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 500 is [-0.04495634]
+obs for step 500 is [0.4735255639, 0.8773654609999824, 0.8874354609999955, 0.8864432624099834]
+action for step500 if [-0.99999386]
+Step:500 loss_critic:0.0006099610513697412 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 550 is [-0.06988249]
+obs for step 550 is [0.9079978492, 0.9368654609999965, 0.9384354610000116, 0.9384432624099759]
+action for step550 if [-0.99999386]
+Step:550 loss_critic:0.001791340300821951 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 600 is [-0.13523034]
+obs for step 600 is [1.9747861919999998, 1.0573654609999892, 1.059435461000021, 1.0564432624099993]
+action for step600 if [-0.99999386]
+Step:600 loss_critic:0.00783811075737855 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 650 is [-0.07339062]
+obs for step 650 is [2.399735309, 0.9513654609999946, 0.953435460999998, 0.9514432624099811]
+action for step650 if [-0.99999374]
+Step:650 loss_critic:0.0020076257458034397 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 700 is [-0.08133242]
+obs for step 700 is [2.494020881, 0.9903654609999819, 0.9904354610000041, 0.9864432624099777]
+action for step700 if [-0.99999374]
+Step:700 loss_critic:0.00254247827512886 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 750 is [-0.0217614]
+obs for step 750 is [1.834194418, 0.8813654610000015, 0.8784354610000094, 0.8754432624099877]
+action for step750 if [-0.9999938]
+Step:750 loss_critic:6.89062013135359e-05 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 800 is [-0.12027555]
+obs for step 800 is [2.370759895, 1.004365460999992, 1.0064354609999953, 1.0044432624099784]
+action for step800 if [-0.9999938]
+Step:800 loss_critic:0.00607806190658358 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 850 is [-0.13977142]
+obs for step 850 is [2.83588584, 1.0123654610000017, 1.0164354610000146, 1.013443262409993]
+action for step850 if [-0.99999374]
+Step:850 loss_critic:0.008417720590053059 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 900 is [-0.16060067]
+obs for step 900 is [2.2377826119999997, 1.060965460999995, 1.0624354610000069, 1.0584432624099804]
+action for step900 if [-0.9999938]
+Step:900 loss_critic:0.011337338321917717 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 950 is [-0.19140528]
+obs for step 950 is [2.371304825, 1.0881654609999885, 1.0864354610000078, 1.084443262409991]
+action for step950 if [-0.9999938]
+Step:950 loss_critic:0.016450512184486378 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1000 is [-0.10095413]
+obs for step 1000 is [2.425733909, 0.994365461000001, 0.9954354609999996, 0.9944432624099875]
+action for step1000 if [-0.9999938]
+Step:1000 loss_critic:0.004134669246415665 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1050 is [-0.10265805]
+obs for step 1050 is [2.182941557, 1.002865460999999, 1.0044354610000141, 1.0004432624099877]
+action for step1050 if [-0.9999938]
+Step:1050 loss_critic:0.004291150887212877 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1100 is [-0.07239214]
+obs for step 1100 is [1.748800979, 0.967765460999999, 0.9704354610000223, 0.9654432624099911]
+action for step1100 if [-0.99999386]
+Step:1100 loss_critic:0.0019453711615141794 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1150 is [-0.09815638]
+obs for step 1150 is [1.56272657, 0.994065460999991, 0.9944354609999948, 0.9924432624099779]
+action for step1150 if [-0.99999386]
+Step:1150 loss_critic:0.0038844138292547328 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1200 is [-0.12208477]
+obs for step 1200 is [1.605709325, 1.0187654609999868, 1.024435460999996, 1.0174432624099836]
+action for step1200 if [-0.99999386]
+Step:1200 loss_critic:0.006279862772719597 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1250 is [-0.13403515]
+obs for step 1250 is [1.6948338180000002, 1.0240654609999922, 1.02143546100001, 1.0234432624099838]
+action for step1250 if [-0.99999386]
+Step:1250 loss_critic:0.007690645526215757 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1300 is [-0.11355228]
+obs for step 1300 is [1.495199652, 1.007265461000003, 1.0104354610000144, 1.0084432624099975]
+action for step1300 if [-0.99999386]
+Step:1300 loss_critic:0.005360174067635721 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1350 is [-0.14918437]
+obs for step 1350 is [1.4329759530000001, 1.0468654609999817, 1.0434354610000014, 1.0444432624099989]
+action for step1350 if [-0.99999386]
+Step:1350 loss_critic:0.009684395954214386 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+episode num: 7
+reset obs:[1914015.16, 140.1804, 140.217, 140.239]
+reward for step 50 is [-0.00330832]
+obs for step 50 is [-0.5198139023, 0.8631654609999941, 0.8624354610000182, 0.864443262409992]
+action for step50 if [-0.99999386]
+Step:50 loss_critic:2.246708106118991e-05 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 100 is [-0.01026393]
+obs for step 100 is [-0.23200301510000002, 0.9268654609999771, 0.9264354610000112, 0.9264432624099754]
+action for step100 if [-0.99999386]
+Step:100 loss_critic:3.2056842740338285e-08 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 150 is [-0.00970283]
+obs for step 150 is [0.0397248879, 0.9183654609999792, 0.9004354610000007, 0.9024432624099745]
+action for step150 if [-0.99999386]
+Step:150 loss_critic:4.715885270257609e-08 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 200 is [0.04556669]
+obs for step 200 is [-1.291298785, 0.6066654609999773, 0.606435461000018, 0.6034432624099964]
+action for step200 if [-0.99999344]
+Step:200 loss_critic:0.001544341460739154 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 250 is [0.02042805]
+obs for step 250 is [-2.267567335, 0.7073654609999949, 0.7094354609999982, 0.7034432624099907]
+action for step250 if [-0.99999309]
+Step:250 loss_critic:0.00046315046960961547 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 300 is [0.01061632]
+obs for step 300 is [-1.1838327579999999, 0.7753654609999785, 0.7804354609999962, 0.7754432624099934]
+action for step300 if [-0.99999368]
+Step:300 loss_critic:0.00021267457808049354 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 350 is [0.00274409]
+obs for step 350 is [-0.9139336222, 0.7763654609999833, 0.7774354610000103, 0.7754432624099934]
+action for step350 if [-0.99999374]
+Step:350 loss_critic:8.129615065377838e-05 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 400 is [-0.01183839]
+obs for step 400 is [-0.9283097491, 0.8289654609999957, 0.8344354609999982, 0.8304432624100002]
+action for step400 if [-0.9999938]
+Step:400 loss_critic:1.677824544402026e-06 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 450 is [-0.02302447]
+obs for step 450 is [-0.1302015768, 0.8406654609999862, 0.8414354610000032, 0.8384432624099816]
+action for step450 if [-0.99999386]
+Step:450 loss_critic:8.473854367267643e-05 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 500 is [-0.04495634]
+obs for step 500 is [0.4735255639, 0.8773654609999824, 0.8874354609999955, 0.8864432624099834]
+action for step500 if [-0.99999386]
+Step:500 loss_critic:0.0006107711493119761 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 550 is [-0.06988249]
+obs for step 550 is [0.9079978492, 0.9368654609999965, 0.9384354610000116, 0.9384432624099759]
+action for step550 if [-0.99999386]
+Step:550 loss_critic:0.0017926248804235143 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 600 is [-0.13523034]
+obs for step 600 is [1.9747861919999998, 1.0573654609999892, 1.059435461000021, 1.0564432624099993]
+action for step600 if [-0.99999386]
+Step:600 loss_critic:0.007840640807250856 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 650 is [-0.07339062]
+obs for step 650 is [2.399735309, 0.9513654609999946, 0.953435460999998, 0.9514432624099811]
+action for step650 if [-0.99999374]
+Step:650 loss_critic:0.0020088420833832524 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 700 is [-0.08133242]
+obs for step 700 is [2.494020881, 0.9903654609999819, 0.9904354610000041, 0.9864432624099777]
+action for step700 if [-0.99999374]
+Step:700 loss_critic:0.002543779031877177 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 750 is [-0.0217614]
+obs for step 750 is [1.834194418, 0.8813654610000015, 0.8784354610000094, 0.8754432624099877]
+action for step750 if [-0.9999938]
+Step:750 loss_critic:6.910506409167146e-05 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 800 is [-0.12027555]
+obs for step 800 is [2.370759895, 1.004365460999992, 1.0064354609999953, 1.0044432624099784]
+action for step800 if [-0.9999938]
+Step:800 loss_critic:0.006079810074213115 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 850 is [-0.13977142]
+obs for step 850 is [2.83588584, 1.0123654610000017, 1.0164354610000146, 1.013443262409993]
+action for step850 if [-0.99999374]
+Step:850 loss_critic:0.00841966957652899 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 900 is [-0.16060067]
+obs for step 900 is [2.2377826119999997, 1.060965460999995, 1.0624354610000069, 1.0584432624099804]
+action for step900 if [-0.9999938]
+Step:900 loss_critic:0.01133952835456317 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 950 is [-0.19140528]
+obs for step 950 is [2.371304825, 1.0881654609999885, 1.0864354610000078, 1.084443262409991]
+action for step950 if [-0.9999938]
+Step:950 loss_critic:0.016453031277440282 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1000 is [-0.10095413]
+obs for step 1000 is [2.425733909, 0.994365461000001, 0.9954354609999996, 0.9944432624099875]
+action for step1000 if [-0.9999938]
+Step:1000 loss_critic:0.004135872595519922 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1050 is [-0.10265805]
+obs for step 1050 is [2.182941557, 1.002865460999999, 1.0044354610000141, 1.0004432624099877]
+action for step1050 if [-0.9999938]
+Step:1050 loss_critic:0.0042923105229803376 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1100 is [-0.07239214]
+obs for step 1100 is [1.748800979, 0.967765460999999, 0.9704354610000223, 0.9654432624099911]
+action for step1100 if [-0.99999386]
+Step:1100 loss_critic:0.0019460962041759472 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1150 is [-0.09815638]
+obs for step 1150 is [1.56272657, 0.994065460999991, 0.9944354609999948, 0.9924432624099779]
+action for step1150 if [-0.99999386]
+Step:1150 loss_critic:0.003885375277144917 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1200 is [-0.12208477]
+obs for step 1200 is [1.605709325, 1.0187654609999868, 1.024435460999996, 1.0174432624099836]
+action for step1200 if [-0.99999386]
+Step:1200 loss_critic:0.0062810117362868765 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1250 is [-0.13403515]
+obs for step 1250 is [1.6948338180000002, 1.0240654609999922, 1.02143546100001, 1.0234432624099838]
+action for step1250 if [-0.99999386]
+Step:1250 loss_critic:0.007691843078900984 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1300 is [-0.11355228]
+obs for step 1300 is [1.495199652, 1.007265461000003, 1.0104354610000144, 1.0084432624099975]
+action for step1300 if [-0.99999386]
+Step:1300 loss_critic:0.005361118306485661 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1350 is [-0.14918437]
+obs for step 1350 is [1.4329759530000001, 1.0468654609999817, 1.0434354610000014, 1.0444432624099989]
+action for step1350 if [-0.99999386]
+Step:1350 loss_critic:0.009685598762515285 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+episode num: 8
+reset obs:[1914015.16, 140.1804, 140.217, 140.239]
+reward for step 50 is [-0.00330832]
+obs for step 50 is [-0.5198139023, 0.8631654609999941, 0.8624354610000182, 0.864443262409992]
+action for step50 if [-0.9999938]
+Step:50 loss_critic:2.2414371739170048e-05 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 100 is [-0.01026393]
+obs for step 100 is [-0.23200301510000002, 0.9268654609999771, 0.9264354610000112, 0.9264432624099754]
+action for step100 if [-0.99999386]
+Step:100 loss_critic:3.394006665547595e-08 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 150 is [-0.00970283]
+obs for step 150 is [0.0397248879, 0.9183654609999792, 0.9004354610000007, 0.9024432624099745]
+action for step150 if [-0.99999386]
+Step:150 loss_critic:4.511304091567853e-08 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 200 is [0.04556669]
+obs for step 200 is [-1.291298785, 0.6066654609999773, 0.606435461000018, 0.6034432624099964]
+action for step200 if [-0.99999344]
+Step:200 loss_critic:0.001543996969032545 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 250 is [0.02042805]
+obs for step 250 is [-2.267567335, 0.7073654609999949, 0.7094354609999982, 0.7034432624099907]
+action for step250 if [-0.99999309]
+Step:250 loss_critic:0.0004596739860856608 loss_actor:tensor([[0.9999]], grad_fn=<MulBackward0>)
+reward for step 300 is [0.01061632]
+obs for step 300 is [-1.1838327579999999, 0.7753654609999785, 0.7804354609999962, 0.7754432624099934]
+action for step300 if [-0.99999368]
+Step:300 loss_critic:0.00021253200461260666 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 350 is [0.00274409]
+obs for step 350 is [-0.9139336222, 0.7763654609999833, 0.7774354610000103, 0.7754432624099934]
+action for step350 if [-0.99999374]
+Step:350 loss_critic:8.122928193637882e-05 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 400 is [-0.01183839]
+obs for step 400 is [-0.9283097491, 0.8289654609999957, 0.8344354609999982, 0.8304432624100002]
+action for step400 if [-0.9999938]
+Step:400 loss_critic:1.6865707500788455e-06 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 450 is [-0.02302447]
+obs for step 450 is [-0.1302015768, 0.8406654609999862, 0.8414354610000032, 0.8384432624099816]
+action for step450 if [-0.99999386]
+Step:450 loss_critic:8.479286823186677e-05 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 500 is [-0.04495634]
+obs for step 500 is [0.4735255639, 0.8773654609999824, 0.8874354609999955, 0.8864432624099834]
+action for step500 if [-0.99999386]
+Step:500 loss_critic:0.0006109065617632484 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 550 is [-0.06988249]
+obs for step 550 is [0.9079978492, 0.9368654609999965, 0.9384354610000116, 0.9384432624099759]
+action for step550 if [-0.99999386]
+Step:550 loss_critic:0.0017928497212061812 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 600 is [-0.13523034]
+obs for step 600 is [1.9747861919999998, 1.0573654609999892, 1.059435461000021, 1.0564432624099993]
+action for step600 if [-0.99999386]
+Step:600 loss_critic:0.007841096078988034 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 650 is [-0.07339062]
+obs for step 650 is [2.399735309, 0.9513654609999946, 0.953435460999998, 0.9514432624099811]
+action for step650 if [-0.99999374]
+Step:650 loss_critic:0.0020090687632319353 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 700 is [-0.08133242]
+obs for step 700 is [2.494020881, 0.9903654609999819, 0.9904354610000041, 0.9864432624099777]
+action for step700 if [-0.99999374]
+Step:700 loss_critic:0.0025440256086673545 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 750 is [-0.0217614]
+obs for step 750 is [1.834194418, 0.8813654610000015, 0.8784354610000094, 0.8754432624099877]
+action for step750 if [-0.9999938]
+Step:750 loss_critic:6.914431048691839e-05 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 800 is [-0.12027555]
+obs for step 800 is [2.370759895, 1.004365460999992, 1.0064354609999953, 1.0044432624099784]
+action for step800 if [-0.9999938]
+Step:800 loss_critic:0.006080158399190601 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 850 is [-0.13977142]
+obs for step 850 is [2.83588584, 1.0123654610000017, 1.0164354610000146, 1.013443262409993]
+action for step850 if [-0.99999374]
+Step:850 loss_critic:0.008420079477170111 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 900 is [-0.16060067]
+obs for step 900 is [2.2377826119999997, 1.060965460999995, 1.0624354610000069, 1.0584432624099804]
+action for step900 if [-0.9999938]
+Step:900 loss_critic:0.011340004039046949 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 950 is [-0.19140528]
+obs for step 950 is [2.371304825, 1.0881654609999885, 1.0864354610000078, 1.084443262409991]
+action for step950 if [-0.9999938]
+Step:950 loss_critic:0.016453593435291448 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1000 is [-0.10095413]
+obs for step 1000 is [2.425733909, 0.994365461000001, 0.9954354609999996, 0.9944432624099875]
+action for step1000 if [-0.9999938]
+Step:1000 loss_critic:0.004136159892090584 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1050 is [-0.10265805]
+obs for step 1050 is [2.182941557, 1.002865460999999, 1.0044354610000141, 1.0004432624099877]
+action for step1050 if [-0.9999938]
+Step:1050 loss_critic:0.004292586633738737 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1100 is [-0.07239214]
+obs for step 1100 is [1.748800979, 0.967765460999999, 0.9704354610000223, 0.9654432624099911]
+action for step1100 if [-0.99999386]
+Step:1100 loss_critic:0.0019462784089027724 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1150 is [-0.09815638]
+obs for step 1150 is [1.56272657, 0.994065460999991, 0.9944354609999948, 0.9924432624099779]
+action for step1150 if [-0.99999386]
+Step:1150 loss_critic:0.0038856222115327965 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1200 is [-0.12208477]
+obs for step 1200 is [1.605709325, 1.0187654609999868, 1.024435460999996, 1.0174432624099836]
+action for step1200 if [-0.99999386]
+Step:1200 loss_critic:0.006281312331819844 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1250 is [-0.13403515]
+obs for step 1250 is [1.6948338180000002, 1.0240654609999922, 1.02143546100001, 1.0234432624099838]
+action for step1250 if [-0.99999386]
+Step:1250 loss_critic:0.007692153542734661 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1300 is [-0.11355228]
+obs for step 1300 is [1.495199652, 1.007265461000003, 1.0104354610000144, 1.0084432624099975]
+action for step1300 if [-0.99999386]
+Step:1300 loss_critic:0.005361371332484251 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1350 is [-0.14918437]
+obs for step 1350 is [1.4329759530000001, 1.0468654609999817, 1.0434354610000014, 1.0444432624099989]
+action for step1350 if [-0.99999386]
+Step:1350 loss_critic:0.00968593055062261 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+episode num: 9
+reset obs:[1914015.16, 140.1804, 140.217, 140.239]
+reward for step 50 is [-0.00330832]
+obs for step 50 is [-0.5198139023, 0.8631654609999941, 0.8624354610000182, 0.864443262409992]
+action for step50 if [-0.9999938]
+Step:50 loss_critic:2.2399209345608147e-05 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 100 is [-0.01026393]
+obs for step 100 is [-0.23200301510000002, 0.9268654609999771, 0.9264354610000112, 0.9264432624099754]
+action for step100 if [-0.99999386]
+Step:100 loss_critic:3.44544605819546e-08 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 150 is [-0.00970283]
+obs for step 150 is [0.0397248879, 0.9183654609999792, 0.9004354610000007, 0.9024432624099745]
+action for step150 if [-0.99999386]
+Step:150 loss_critic:4.454194481883179e-08 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 200 is [0.04556669]
+obs for step 200 is [-1.291298785, 0.6066654609999773, 0.606435461000018, 0.6034432624099964]
+action for step200 if [-0.99999344]
+Step:200 loss_critic:0.0015400447140600237 loss_actor:tensor([[0.9999]], grad_fn=<MulBackward0>)
+reward for step 250 is [0.02042805]
+obs for step 250 is [-2.267567335, 0.7073654609999949, 0.7094354609999982, 0.7034432624099907]
+action for step250 if [-0.99999303]
+Step:250 loss_critic:1.379621728815954e-05 loss_actor:tensor([[0.9737]], grad_fn=<MulBackward0>)
+reward for step 300 is [0.01061632]
+obs for step 300 is [-1.1838327579999999, 0.7753654609999785, 0.7804354609999962, 0.7754432624099934]
+action for step300 if [-0.99999386]
+Step:300 loss_critic:2.4654495591597686e-05 loss_actor:tensor([[0.9856]], grad_fn=<MulBackward0>)
+reward for step 350 is [0.00274409]
+obs for step 350 is [-0.9139336222, 0.7763654609999833, 0.7774354610000103, 0.7754432624099934]
+action for step350 if [-0.99999428]
+Step:350 loss_critic:4.2640025696437164e-05 loss_actor:tensor([[0.9812]], grad_fn=<MulBackward0>)
+reward for step 400 is [-0.01183839]
+obs for step 400 is [-0.9283097491, 0.8289654609999957, 0.8344354609999982, 0.8304432624100002]
+action for step400 if [-0.99999434]
+Step:400 loss_critic:1.8716142605860685e-05 loss_actor:tensor([[0.9956]], grad_fn=<MulBackward0>)
+reward for step 450 is [-0.02302447]
+obs for step 450 is [-0.1302015768, 0.8406654609999862, 0.8414354610000032, 0.8384432624099816]
+action for step450 if [-0.99999446]
+Step:450 loss_critic:0.00010022841795419189 loss_actor:tensor([[0.9989]], grad_fn=<MulBackward0>)
+reward for step 500 is [-0.04495635]
+obs for step 500 is [0.4735255639, 0.8773654609999824, 0.8874354609999955, 0.8864432624099834]
+action for step500 if [-0.99999446]
+Step:500 loss_critic:0.0006196571297786796 loss_actor:tensor([[0.9998]], grad_fn=<MulBackward0>)
+reward for step 550 is [-0.0698825]
+obs for step 550 is [0.9079978492, 0.9368654609999965, 0.9384354610000116, 0.9384432624099759]
+action for step550 if [-0.99999446]
+Step:550 loss_critic:0.0018022998063093787 loss_actor:tensor([[0.9998]], grad_fn=<MulBackward0>)
+reward for step 600 is [-0.13523037]
+obs for step 600 is [1.9747861919999998, 1.0573654609999892, 1.059435461000021, 1.0564432624099993]
+action for step600 if [-0.99999446]
+Step:600 loss_critic:0.007849230455799517 loss_actor:tensor([[0.9999]], grad_fn=<MulBackward0>)
+reward for step 650 is [-0.07339063]
+obs for step 650 is [2.399735309, 0.9513654609999946, 0.953435460999998, 0.9514432624099811]
+action for step650 if [-0.99999434]
+Step:650 loss_critic:0.002011295583323429 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 700 is [-0.08133243]
+obs for step 700 is [2.494020881, 0.9903654609999819, 0.9904354610000041, 0.9864432624099777]
+action for step700 if [-0.99999434]
+Step:700 loss_critic:0.002545838175643466 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 750 is [-0.02176139]
+obs for step 750 is [1.834194418, 0.8813654610000015, 0.8784354610000094, 0.8754432624099877]
+action for step750 if [-0.9999944]
+Step:750 loss_critic:6.940173752622445e-05 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 800 is [-0.12027557]
+obs for step 800 is [2.370759895, 1.004365460999992, 1.0064354609999953, 1.0044432624099784]
+action for step800 if [-0.9999944]
+Step:800 loss_critic:0.006082232247148838 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 850 is [-0.13977145]
+obs for step 850 is [2.83588584, 1.0123654610000017, 1.0164354610000146, 1.013443262409993]
+action for step850 if [-0.99999434]
+Step:850 loss_critic:0.008421948419300758 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 900 is [-0.16060071]
+obs for step 900 is [2.2377826119999997, 1.060965460999995, 1.0624354610000069, 1.0584432624099804]
+action for step900 if [-0.9999944]
+Step:900 loss_critic:0.011341482831778162 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 950 is [-0.19140534]
+obs for step 950 is [2.371304825, 1.0881654609999885, 1.0864354610000078, 1.084443262409991]
+action for step950 if [-0.9999944]
+Step:950 loss_critic:0.01645481461619777 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1000 is [-0.10095415]
+obs for step 1000 is [2.425733909, 0.994365461000001, 0.9954354609999996, 0.9944432624099875]
+action for step1000 if [-0.99999434]
+Step:1000 loss_critic:0.004136487000018713 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1050 is [-0.10265807]
+obs for step 1050 is [2.182941557, 1.002865460999999, 1.0044354610000141, 1.0004432624099877]
+action for step1050 if [-0.9999944]
+Step:1050 loss_critic:0.00429266587480467 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1100 is [-0.07239215]
+obs for step 1100 is [1.748800979, 0.967765460999999, 0.9704354610000223, 0.9654432624099911]
+action for step1100 if [-0.9999944]
+Step:1100 loss_critic:0.0019460558015746404 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1150 is [-0.0981564]
+obs for step 1150 is [1.56272657, 0.994065460999991, 0.9944354609999948, 0.9924432624099779]
+action for step1150 if [-0.99999446]
+Step:1150 loss_critic:0.0038846413595028553 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1200 is [-0.1220848]
+obs for step 1200 is [1.605709325, 1.0187654609999868, 1.024435460999996, 1.0174432624099836]
+action for step1200 if [-0.99999446]
+Step:1200 loss_critic:0.0062790844525484465 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1250 is [-0.13403519]
+obs for step 1250 is [1.6948338180000002, 1.0240654609999922, 1.02143546100001, 1.0234432624099838]
+action for step1250 if [-0.99999446]
+Step:1250 loss_critic:0.007688705667247757 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1300 is [-0.1135523]
+obs for step 1300 is [1.495199652, 1.007265461000003, 1.0104354610000144, 1.0084432624099975]
+action for step1300 if [-0.99999446]
+Step:1300 loss_critic:0.0053572085872622514 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1350 is [-0.14918441]
+obs for step 1350 is [1.4329759530000001, 1.0468654609999817, 1.0434354610000014, 1.0444432624099989]
+action for step1350 if [-0.99999446]
+Step:1350 loss_critic:0.009678496233440189 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+episode num: 10
+reset obs:[1914015.16, 140.1804, 140.217, 140.239]
+reward for step 50 is [-0.00330832]
+obs for step 50 is [-0.5198139023, 0.8631654609999941, 0.8624354610000182, 0.864443262409992]
+action for step50 if [-0.9999944]
+Step:50 loss_critic:2.2915982490999168e-05 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 100 is [-0.01026393]
+obs for step 100 is [-0.23200301510000002, 0.9268654609999771, 0.9264354610000112, 0.9264432624099754]
+action for step100 if [-0.99999446]
+Step:100 loss_critic:1.9382130273524663e-08 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 150 is [-0.00970284]
+obs for step 150 is [0.0397248879, 0.9183654609999792, 0.9004354610000007, 0.9024432624099745]
+action for step150 if [-0.99999446]
+Step:150 loss_critic:6.302256718568659e-08 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 200 is [0.04556672]
+obs for step 200 is [-1.291298785, 0.6066654609999773, 0.606435461000018, 0.6034432624099964]
+action for step200 if [-0.9999941]
+Step:200 loss_critic:0.0015466129146812098 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 250 is [0.02042806]
+obs for step 250 is [-2.267567335, 0.7073654609999949, 0.7094354609999982, 0.7034432624099907]
+action for step250 if [-0.99999374]
+Step:250 loss_critic:0.0004642599006762542 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 300 is [0.01061632]
+obs for step 300 is [-1.1838327579999999, 0.7753654609999785, 0.7804354609999962, 0.7754432624099934]
+action for step300 if [-0.99999428]
+Step:300 loss_critic:0.00021330456450916938 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 350 is [0.00274409]
+obs for step 350 is [-0.9139336222, 0.7763654609999833, 0.7774354610000103, 0.7754432624099934]
+action for step350 if [-0.99999434]
+Step:350 loss_critic:8.163473264067224e-05 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 400 is [-0.0118384]
+obs for step 400 is [-0.9283097491, 0.8289654609999957, 0.8344354609999982, 0.8304432624100002]
+action for step400 if [-0.9999944]
+Step:400 loss_critic:1.6356333066617974e-06 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 450 is [-0.02302448]
+obs for step 450 is [-0.1302015768, 0.8406654609999862, 0.8414354610000032, 0.8384432624099816]
+action for step450 if [-0.99999446]
+Step:450 loss_critic:8.44735597643992e-05 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 500 is [-0.04495637]
+obs for step 500 is [0.4735255639, 0.8773654609999824, 0.8874354609999955, 0.8864432624099834]
+action for step500 if [-0.99999446]
+Step:500 loss_critic:0.0006101410543252153 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 550 is [-0.06988253]
+obs for step 550 is [0.9079978492, 0.9368654609999965, 0.9384354610000116, 0.9384432624099759]
+action for step550 if [-0.99999446]
+Step:550 loss_critic:0.001791656797803273 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 600 is [-0.13523042]
+obs for step 600 is [1.9747861919999998, 1.0573654609999892, 1.059435461000021, 1.0564432624099993]
+action for step600 if [-0.99999446]
+Step:600 loss_critic:0.007838785156532744 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 650 is [-0.07339066]
+obs for step 650 is [2.399735309, 0.9513654609999946, 0.953435460999998, 0.9514432624099811]
+action for step650 if [-0.99999434]
+Step:650 loss_critic:0.002008010044391096 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 700 is [-0.08133246]
+obs for step 700 is [2.494020881, 0.9903654609999819, 0.9904354610000041, 0.9864432624099777]
+action for step700 if [-0.99999434]
+Step:700 loss_critic:0.002542953590065818 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 750 is [-0.02176141]
+obs for step 750 is [1.834194418, 0.8813654610000015, 0.8784354610000094, 0.8754432624099877]
+action for step750 if [-0.9999944]
+Step:750 loss_critic:6.898685159317943e-05 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 800 is [-0.12027562]
+obs for step 800 is [2.370759895, 1.004365460999992, 1.0064354609999953, 1.0044432624099784]
+action for step800 if [-0.9999944]
+Step:800 loss_critic:0.006078845369725776 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 850 is [-0.1397715]
+obs for step 850 is [2.83588584, 1.0123654610000017, 1.0164354610000146, 1.013443262409993]
+action for step850 if [-0.99999434]
+Step:850 loss_critic:0.008418690503367451 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 900 is [-0.16060077]
+obs for step 900 is [2.2377826119999997, 1.060965460999995, 1.0624354610000069, 1.0584432624099804]
+action for step900 if [-0.9999944]
+Step:900 loss_critic:0.01133854658934943 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 950 is [-0.1914054]
+obs for step 950 is [2.371304825, 1.0881654609999885, 1.0864354610000078, 1.084443262409991]
+action for step950 if [-0.9999944]
+Step:950 loss_critic:0.01645202501293397 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1000 is [-0.10095419]
+obs for step 1000 is [2.425733909, 0.994365461000001, 0.9954354609999996, 0.9944432624099875]
+action for step1000 if [-0.99999434]
+Step:1000 loss_critic:0.00413543906504276 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1050 is [-0.10265811]
+obs for step 1050 is [2.182941557, 1.002865460999999, 1.0044354610000141, 1.0004432624099877]
+action for step1050 if [-0.9999944]
+Step:1050 loss_critic:0.004291935230811706 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1100 is [-0.07239218]
+obs for step 1100 is [1.748800979, 0.967765460999999, 0.9704354610000223, 0.9654432624099911]
+action for step1100 if [-0.9999944]
+Step:1100 loss_critic:0.0019458869992554177 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1150 is [-0.09815644]
+obs for step 1150 is [1.56272657, 0.994065460999991, 0.9944354609999948, 0.9924432624099779]
+action for step1150 if [-0.99999446]
+Step:1150 loss_critic:0.003885128315340419 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1200 is [-0.12208485]
+obs for step 1200 is [1.605709325, 1.0187654609999868, 1.024435460999996, 1.0174432624099836]
+action for step1200 if [-0.99999446]
+Step:1200 loss_critic:0.006280739417942975 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+reward for step 1250 is [-0.13403523]
+obs for step 1250 is [1.6948338180000002, 1.0240654609999922, 1.02143546100001, 1.0234432624099838]
+action for step1250 if [-0.99999446]
+Step:1250 loss_critic:0.00769159435720272 loss_actor:tensor([[1.0000]], grad_fn=<MulBackward0>)
+Traceback (most recent call last):
+  File "C:\Users\sari\Desktop\DeepCover\main.py", line 100, in <module>
+    main()
+  File "C:\Users\sari\Desktop\DeepCover\main.py", line 78, in main
+    loss_critic, loss_actor = trainer.optimize(obs, action, reward, next_obs, args.gamma, args.tau)
+  File "C:\Users\sari\Desktop\DeepCover\models\A2C\train.py", line 98, in optimize
+    loss_actor.backward()
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\torch\_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "C:\Users\sari\AppData\Local\anaconda3\lib\site-packages\torch\autograd\__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
